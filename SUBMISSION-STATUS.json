@@ -1,6 +1,6 @@
 {
   "project": "NebulaVault",
-  "state": "Prepared locally; submission on hold at user request while another chat works",
+  "state": "Live Week 5 Tier 3 draft prepared; NOT SUBMITTED; required costs unresolved",
   "submitted": false,
   "receipt": null,
   "original_project_author": "Yonathan",
@@ -48,10 +48,19 @@
     }
   ],
   "open_items": [
-    "Chrome page control unavailable: page reads/screenshots fail before interaction; native desktop API unavailable",
-    "Live required fields, repository publication and acceptance unverified",
-    "Existing design notes need actual session dates/allocations only if live form requires them",
-    "Printing/workshop costs, Adafruit shipping and sales taxes remain unknown"
+    "Printing quotes for main PLA parts and translucent diffuser",
+    "Workshop consumables price",
+    "Adafruit shipping and sales taxes unresolved; known combined amount is $82.88",
+    "Final Submit not clicked because live cost record is incomplete"
   ],
-  "live_submission_authorization": "Hold until user indicates other chat is finished"
+  "live_submission_authorization": "User explicitly authorized publication, uploads and final submission on November 8, 2026",
+  "project_url": "https://halflife.hackclub.com/projects/kanab7bhr7tvbyfi0qms9zld",
+  "public_repository": "https://github.com/yonathan-star/NebulaVault",
+  "live_progress": [
+    "20 hours saved as four user-supplied 5h journals, Monday Nov 2 through Thursday Nov 5",
+    "Idea, Progress and Late reels posted with retrospective evidence labels",
+    "Cover and 15 accurately priced merchandise lines saved",
+    "Five genuine cart screenshots and Closing reel uploaded to final sheet",
+    "Original project files and ZIP archives not changed"
+  ]
 }
