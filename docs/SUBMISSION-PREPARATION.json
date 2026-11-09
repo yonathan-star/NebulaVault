@@ -1,6 +1,6 @@
 {
   "project": "NebulaVault",
-  "state": "Live Week 5 Tier 3 draft prepared; NOT SUBMITTED; required costs unresolved",
+  "state": "Live Week 5 Tier 3 draft prepared; NOT SUBMITTED; updated cost evidence pending",
   "submitted": false,
   "receipt": null,
   "original_project_author": "Yonathan",
@@ -48,10 +48,10 @@
     }
   ],
   "open_items": [
-    "Printing quotes for main PLA parts and translucent diffuser",
-    "Workshop consumables price",
-    "Adafruit shipping and sales taxes unresolved; known combined amount is $82.88",
-    "Final Submit not clicked because live cost record is incomplete"
+    "Supplied estimate $137.13 is $37.13 over the $100 Tier 3 grant",
+    "Consumables $19.95 lacks verified vendor and itemized pricing",
+    "Updated Adafruit, DigiKey and Polymaker checkout screenshots not supplied",
+    "Over-budget acknowledgement awaits user response"
   ],
   "live_submission_authorization": "User explicitly authorized publication, uploads and final submission on November 8, 2026",
   "project_url": "https://halflife.hackclub.com/projects/kanab7bhr7tvbyfi0qms9zld",
@@ -62,5 +62,15 @@
     "Cover and 15 accurately priced merchandise lines saved",
     "Five genuine cart screenshots and Closing reel uploaded to final sheet",
     "Original project files and ZIP archives not changed"
-  ]
+  ],
+  "updated_costs": {
+    "unresolved_consumables_estimate_usd": 19.95,
+    "excess_usd": 37.13,
+    "shipping_tariff_tax_estimates_usd": 19.45,
+    "tier3_grant_usd": 100,
+    "original_readme_and_cost_notes": "Preserved as originally supplied; latest cost attachment supersedes earlier cost figures",
+    "live_supported_bom_total_usd": 117.18,
+    "supplied_estimate_usd": 137.13,
+    "latest_cost_notes": "procurement/NebulaVault-updated-BOM-and-notes.md"
+  }
 }
