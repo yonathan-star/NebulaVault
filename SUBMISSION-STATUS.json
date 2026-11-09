@@ -1,6 +1,6 @@
 {
   "project": "NebulaVault",
-  "state": "Submitted — with reviewers, confirmed in Half-Life UI",
+  "state": "Submitted — all four reel posts replaced at owner request; with reviewers",
   "submitted": true,
   "receipt": "https://halflife.hackclub.com/projects/kanab7bhr7tvbyfi0qms9zld",
   "original_project_author": "Yonathan",
@@ -78,11 +78,47 @@
     "unsupported_allowance": "The former $19.95 allowance is withdrawn",
     "shipping_tariff_tax_usd": 19.56
   },
-  "submit_clicked_at_utc": "2026-11-09T03:32:41.648Z",
-  "submission_time_eastern": "November 8, 2026, approximately 10:32:42 PM EST",
+  "submit_clicked_at_utc": "2026-11-09T03:48:49.169Z",
+  "submission_time_eastern": "November 8, 2026, approximately 10:48:49 PM EST",
   "confirmation_text": [
     "Congratulations, your design is submitted!",
     "It's with the reviewers now."
   ],
-  "confirmation_screenshot": "NebulaVault-submission-confirmation.jpg"
+  "confirmation_screenshot": "NebulaVault-replacement-submission-confirmation.jpg",
+  "video_replacement": {
+    "permanent_deletion_confirmed_by_owner": true,
+    "submission_confirmation": "Congratulations, your design is submitted! It is with the reviewers now.",
+    "all_four_uploaded_from_exact_supplied_downloads_paths": true,
+    "files": [
+      {
+        "role": "Closing",
+        "supplied_source": "NebulaVault-Closing-Reel.mp4",
+        "sha256": "334390669246e4d4c9b4a58ad6fce2941d044fb614e4ee858ed96fd457548217",
+        "uploaded_asset": "https://halflife.hackclub-assets.com/posts/qeKd3THvQVNRJS5XlrG2GngdUr0o9lYK/49af0206-760f-4ac5-a474-0bdb2aec9b97.mp4"
+      },
+      {
+        "role": "Late",
+        "supplied_source": "NebulaVault-Late-Reel.mp4",
+        "sha256": "b095bc1be2a31361327a20373f25343aa10512efeb5faa4fced04879a33d4c45",
+        "uploaded_asset": "https://halflife.hackclub-assets.com/posts/qeKd3THvQVNRJS5XlrG2GngdUr0o9lYK/7379b0e0-6235-4fbc-91eb-aa51ed8081c7.mp4"
+      },
+      {
+        "role": "Progress",
+        "supplied_source": "NebulaVault-Progress-Reel.mp4",
+        "sha256": "b0f63d90a7094beb5a677510a6ab0e53608b3e83f728b9ba93c961542f1a680b",
+        "uploaded_asset": "https://halflife.hackclub-assets.com/posts/qeKd3THvQVNRJS5XlrG2GngdUr0o9lYK/1bdcab80-6b12-4bb6-8901-1bb60290c4a6.mp4"
+      },
+      {
+        "role": "Idea",
+        "supplied_source": "NebulaVault-Idea-Reel.mp4",
+        "sha256": "e098f144484766455a94475759c11af4d79a3174ff0ffaf69d2f33601922542c",
+        "uploaded_asset": "https://halflife.hackclub-assets.com/posts/qeKd3THvQVNRJS5XlrG2GngdUr0o9lYK/91cdfab1-21c2-4bfd-ad37-96f7799890c0.mp4"
+      }
+    ],
+    "submitted_at_eastern": "November 8, 2026, approximately 10:48:49 PM EST",
+    "four_current_posts_verified_in_my_reels": true,
+    "old_four_posts_removed": true,
+    "requested_by_owner": true,
+    "submitted_at_utc": "2026-11-09T03:48:49.169Z"
+  }
 }
