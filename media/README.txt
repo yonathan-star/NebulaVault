@@ -1,0 +1,1 @@
+Four distinct vertical 720x1280 videos, 33–36 seconds each. Actual project CAD renders, source-file views and the supplied recorded software simulation. No physical device footage. These retrospective walkthroughs do not establish what existed at exact 5h/15h milestones. No video has been uploaded in this chat.

@@ -1,0 +1,277 @@
+- button "Skip Navigation"
+- banner:
+  - navigation "Adafruit sites":
+    - list:
+      - link "Shop":
+        - /url: https://www.adafruit.com/
+      - link "Learn":
+        - /url: https://learn.adafruit.com/
+      - link "Blog":
+        - /url: https://blog.adafruit.com/
+      - link "Forums":
+        - /url: https://forums.adafruit.com/
+      - link "IO":
+        - /url: https://io.adafruit.com/
+      - link "LIVE!":
+        - /url: https://www.youtube.com/adafruit/live
+      - link "AdaBox":
+        - /url: https://www.adafruit.com/adabox
+  - link "Sign In":
+    - /url: https://www.adafruit.com/login
+  - link " Shopping cart, 5 items.":
+    - /url: https://www.adafruit.com/shopping_cart
+    - generic: 
+    - generic: Shopping cart,
+    - text: "5"
+    - generic: items.
+  - text: 
+  - link "Adafruit Logo":
+    - /url: https://www.adafruit.com
+    - img "Adafruit Logo"
+  - list:
+    - button "Products"
+    - link "Gift Ideas":
+      - /url: /explore
+    - link "What's New":
+      - /url: /new
+  - search:
+    - textbox "Search "
+    - button "Search ":
+      - generic: Search
+      - generic: 
+- main:
+  - heading "Shopping Cart" [level=1]
+  - text: Add $128.65 to your order and get a free
+  - link "Adafruit KB2040 - RP2040 Kee Boar Driver":
+    - /url: products/5302
+  - text: (U.S. orders only)
+  - link "Return to Shopping":
+    - /url: "#"
+  - text: or
+  - link "Proceed to Checkout ":
+    - /url: https://www.adafruit.com/checkout
+    - text: Proceed to Checkout
+    - generic: 
+  - table:
+    - row "Item Price Qty Remove Total":
+      - columnheader "Item"
+      - columnheader "Price"
+      - columnheader "Qty"
+      - columnheader "Remove"
+      - columnheader "Total"
+    - 'row "USB cable - USB A to Micro-B - 3 foot long. USB cable - USB A to Micro-B - 3 foot long USB cable - USB A to Micro-B - 3 foot long PID: 592 $2.95 Qty Remove From Cart $2.95"':
+      - 'rowheader "USB cable - USB A to Micro-B - 3 foot long. USB cable - USB A to Micro-B - 3 foot long USB cable - USB A to Micro-B - 3 foot long PID: 592"':
+        - link "USB cable - USB A to Micro-B - 3 foot long. USB cable - USB A to Micro-B - 3 foot long":
+          - /url: /product/592
+          - img "USB cable - USB A to Micro-B - 3 foot long. USB cable - USB A to Micro-B - 3 foot long"
+        - link "USB cable - USB A to Micro-B - 3 foot long":
+          - /url: /product/592
+        - generic: "PID: 592"
+      - cell "$2.95"
+      - cell "Qty":
+        - spinbutton "Qty": "1"
+      - cell "Remove From Cart":
+        - button "Remove From Cart":
+          - generic: 
+      - cell "$2.95"
+    - 'row "Raspberry Pi Pico RP2040 with Loose Unsoldered Headers. Top view of Raspberry Pi Pico with two 20-pin male headers. Raspberry Pi Pico RP2040 with Loose Unsoldered Headers PID: 4883 $5.00 Qty Remove From Cart $5.00"':
+      - 'rowheader "Raspberry Pi Pico RP2040 with Loose Unsoldered Headers. Top view of Raspberry Pi Pico with two 20-pin male headers. Raspberry Pi Pico RP2040 with Loose Unsoldered Headers PID: 4883"':
+        - link "Raspberry Pi Pico RP2040 with Loose Unsoldered Headers. Top view of Raspberry Pi Pico with two 20-pin male headers.":
+          - /url: /product/4883
+          - img "Raspberry Pi Pico RP2040 with Loose Unsoldered Headers. Top view of Raspberry Pi Pico with two 20-pin male headers."
+        - link "Raspberry Pi Pico RP2040 with Loose Unsoldered Headers":
+          - /url: /product/4883
+        - generic: "PID: 4883"
+      - cell "$5.00"
+      - cell "Qty":
+        - spinbutton "Qty": "1"
+      - cell "Remove From Cart":
+        - button "Remove From Cart":
+          - generic: 
+      - cell "$5.00"
+    - 'row "Micro servo - TowerPro SG92R. Micro servo with three pin cable Micro servo - TowerPro SG92R PID: 169 $5.95 Qty Remove From Cart $5.95"':
+      - 'rowheader "Micro servo - TowerPro SG92R. Micro servo with three pin cable Micro servo - TowerPro SG92R PID: 169"':
+        - link "Micro servo - TowerPro SG92R. Micro servo with three pin cable":
+          - /url: /product/169
+          - img "Micro servo - TowerPro SG92R. Micro servo with three pin cable"
+        - link "Micro servo - TowerPro SG92R":
+          - /url: /product/169
+        - generic: "PID: 169"
+      - cell "$5.95"
+      - cell "Qty":
+        - spinbutton "Qty": "1"
+      - cell "Remove From Cart":
+        - button "Remove From Cart":
+          - generic: 
+      - cell "$5.95"
+    - 'row "4700uF 10v Electrolytic Capacitor. 4700uF 10V through hole Electrolytic Capacitor 4700uF 10v Electrolytic Capacitor PID: 1589 $1.95 Qty Remove From Cart $1.95"':
+      - 'rowheader "4700uF 10v Electrolytic Capacitor. 4700uF 10V through hole Electrolytic Capacitor 4700uF 10v Electrolytic Capacitor PID: 1589"':
+        - link "4700uF 10v Electrolytic Capacitor. 4700uF 10V through hole Electrolytic Capacitor":
+          - /url: /product/1589
+          - img "4700uF 10v Electrolytic Capacitor. 4700uF 10V through hole Electrolytic Capacitor"
+        - link "4700uF 10v Electrolytic Capacitor":
+          - /url: /product/1589
+        - generic: "PID: 1589"
+      - cell "$1.95"
+      - cell "Qty":
+        - spinbutton "Qty": "1"
+      - cell "Remove From Cart":
+        - button "Remove From Cart":
+          - generic: 
+      - cell "$1.95"
+    - 'row "Adafruit Perma-Proto Half-sized Breadboard PCB - Single. Angled Shot of the Adafruit Perma-Proto Half-sized Breadboard PCB - Single Adafruit Perma-Proto Half-sized Breadboard PCB - Single PID: 1609 $4.50 Qty Remove From Cart $4.50"':
+      - 'rowheader "Adafruit Perma-Proto Half-sized Breadboard PCB - Single. Angled Shot of the Adafruit Perma-Proto Half-sized Breadboard PCB - Single Adafruit Perma-Proto Half-sized Breadboard PCB - Single PID: 1609"':
+        - link "Adafruit Perma-Proto Half-sized Breadboard PCB - Single. Angled Shot of the Adafruit Perma-Proto Half-sized Breadboard PCB - Single":
+          - /url: /product/1609
+          - img "Adafruit Perma-Proto Half-sized Breadboard PCB - Single. Angled Shot of the Adafruit Perma-Proto Half-sized Breadboard PCB - Single"
+        - link "Adafruit Perma-Proto Half-sized Breadboard PCB - Single":
+          - /url: /product/1609
+        - generic: "PID: 1609"
+      - cell "$4.50"
+      - cell "Qty":
+        - spinbutton "Qty": "1"
+      - cell "Remove From Cart":
+        - button "Remove From Cart":
+          - generic: 
+      - cell "$4.50"
+  - text: Enter gift certificate or discount code
+  - generic: Coupon Code
+  - textbox "Coupon Code"
+  - button "Apply"
+  - generic: Subtotal
+  - generic: $20.35
+  - generic: Shipping (Calculated in Checkout)
+  - generic: $0.00
+  - generic: Tax (Calculated in Checkout)
+  - generic: $0.00
+  - generic: Total (USD)
+  - generic: $20.35
+  - button "Save as New Wishlist"
+  - button "Empty Cart"
+  - link "Return to Shopping":
+    - /url: "#"
+  - text: or
+  - link "Proceed to Checkout ":
+    - /url: https://www.adafruit.com/checkout
+    - text: Proceed to Checkout
+    - generic: 
+  - link "Click here to pay via PayPal Express Checkout":
+    - /url: https://www.adafruit.com/ipn_main_handler.php?type=ec&clearSess=1
+    - img "Click here to pay via PayPal Express Checkout"
+  - text: 
+  - text: Add $179.65 to your order to qualify for
+  - link "free shipping":
+    - /url: /free
+  - text: in the U.S.
+  - generic: You may also like
+  - list:
+    - link "5V 10A switching power supply. 5V 10A switching power supply brick with IEC power port.":
+      - /url: https://www.adafruit.com/product/658
+      - img "5V 10A switching power supply. 5V 10A switching power supply brick with IEC power port."
+    - link "5V 10A switching power supply":
+      - /url: https://www.adafruit.com/product/658
+    - generic: $29.95
+    - button "Add to Cart"
+    - link "Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface. Adafruit 16-Channel 12-bit PWM/Servo Driver with I2C interface":
+      - /url: https://www.adafruit.com/product/815
+      - img "Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface. Adafruit 16-Channel 12-bit PWM/Servo Driver with I2C interface"
+    - link "Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface":
+      - /url: https://www.adafruit.com/product/815
+    - generic: $14.95
+    - button "Add to Cart"
+    - link "Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface. Top down view of a Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface connected to 16 servos.":
+      - /url: https://www.adafruit.com/product/1411
+      - img "Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface. Top down view of a Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface connected to 16 servos."
+    - link "Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface":
+      - /url: https://www.adafruit.com/product/1411
+    - generic: $17.50
+    - button "Add to Cart"
+    - link "Adafruit Perma-Proto Full-sized Breadboard PCB - Single. A white hand with a red manicure holds up an Adafruit Perma-Proto Full-sized Breadboard PCB.":
+      - /url: https://www.adafruit.com/product/1606
+      - img "Adafruit Perma-Proto Full-sized Breadboard PCB - Single. A white hand with a red manicure holds up an Adafruit Perma-Proto Full-sized Breadboard PCB."
+    - link "Adafruit Perma-Proto Full-sized Breadboard PCB - Single":
+      - /url: https://www.adafruit.com/product/1606
+    - generic: $10.95
+    - button "Add to Cart"
+    - link "Adafruit Perma-Proto Half-sized Breadboard PCB - 3 Pack!. Top view of three fanned out Adafruit Perma-Proto Half-sized Breadboard PCBs.":
+      - /url: https://www.adafruit.com/product/571
+      - img "Adafruit Perma-Proto Half-sized Breadboard PCB - 3 Pack!. Top view of three fanned out Adafruit Perma-Proto Half-sized Breadboard PCBs."
+    - link "Adafruit Perma-Proto Half-sized Breadboard PCB - 3 Pack!":
+      - /url: https://www.adafruit.com/product/571
+    - generic: $12.50
+    - button "Add to Cart"
+    - link "Half Sized Premium Breadboard - 400 Tie Points. Angled shot of half-size solderless breadboard with red and black power lines.":
+      - /url: https://www.adafruit.com/product/64
+      - img "Half Sized Premium Breadboard - 400 Tie Points. Angled shot of half-size solderless breadboard with red and black power lines."
+    - link "Half Sized Premium Breadboard - 400 Tie Points":
+      - /url: https://www.adafruit.com/product/64
+    - generic: $4.95
+    - button "Add to Cart"
+- contentinfo:
+  - navigation "Need Help?":
+    - list:
+      - link "Contact Us":
+        - /url: /contact_us
+      - link "Tech Support Forums":
+        - /url: https://forums.adafruit.com/
+      - link "FAQs":
+        - /url: /faq
+      - link "Shipping & Returns":
+        - /url: /shipping
+      - link "Freebies":
+        - /url: /free
+      - link "Terms of Service":
+        - /url: /terms_of_service
+      - link "Privacy & Legal":
+        - /url: /privacy
+      - link "Website Accessibility":
+        - /url: /accessibility
+  - navigation "Explore Adafruit":
+    - list:
+      - link "About Us":
+        - /url: /about
+      - link "Press":
+        - /url: /press
+      - link "Educators":
+        - /url: /educators
+      - link "Distributors":
+        - /url: /distributors
+      - link "Jobs":
+        - /url: https://jobs.adafruit.com
+      - link "Gift Cards":
+        - /url: /category/14
+  - generic: “ The most dangerous phrase in the language is, We’ve always done it this way”
+  - link "– Grace Hopper":
+    - /url: http://en.wikipedia.org/wiki/Grace_Hopper
+  - link "About Adafruit":
+    - /url: /about
+  - link "Adafruit on Instagram":
+    - /url: https://www.instagram.com/adafruit/
+    - generic: 
+  - link "Adafruit on Twitter":
+    - /url: https://twitter.com/adafruit/
+    - generic: 
+  - link "Adafruit on Mastodon":
+    - /url: https://fosstodon.org/@adafruit
+  - link "Adafruit on Facebook":
+    - /url: https://www.facebook.com/adafruitindustries
+    - generic: 
+  - link "Adafruit on YouTube":
+    - /url: https://www.youtube.com/adafruit
+    - generic: 
+  - link "Adafruit on GitHub":
+    - /url: https://github.com/adafruit
+    - generic: 
+  - link "Adafruit on TikTok":
+    - /url: https://www.tiktok.com/@adafruit
+  - link "Adafruit on Tumblr":
+    - /url: https://adafruit.tumblr.com/
+    - generic: 
+  - link "Adafruit on Threads":
+    - /url: https://www.threads.net/@adafruit
+  - link "Adafruit on Discord":
+    - /url: https://adafru.it/discord
+  - link "Adafruit on BlueSky":
+    - /url: https://bsky.app/profile/adafruit.com
+  - link "A Minority and Woman-owned Business Enterprise (M/WBE)":
+    - /url: /about

@@ -1,0 +1,30 @@
+{
+  "idea": [
+    "This is Nebula Vault, my Freestyle Week project: a spacecraft salvage box with a hidden mechanical latch.",
+    "The player aligns three orbital signals with alternating turns, then repeats a short, long, short pulse rhythm.",
+    "An encoder is the main control. An OLED gives clues, and a ring of twelve lights supplies the timing pattern.",
+    "Solving the puzzle commands a servo to release the lid. A manual access slot provides a fallback.",
+    "These are renders of the actual project CAD, not footage of a finished device. Physical fit and motion remain untested."
+  ],
+  "progress": [
+    "Here is the Nebula Vault electronics and firmware walkthrough.",
+    "A Pico reads the encoder and push switch, drives the light ring and OLED, and commands the servo.",
+    "The wiring uses a five volt AHCT buffer for pixel data and the servo control signal. The OLED remains at three point three volts.",
+    "The puzzle logic is separate from the hardware layer, so its state transitions can be checked on a desktop.",
+    "The package records fifteen passing logic tests. That is existing software evidence, not a physical electronics test."
+  ],
+  "late": [
+    "This reel shows the recorded software simulation supplied with Nebula Vault. It is not a physical hardware demonstration.",
+    "The trace starts with arming, then clockwise alignment to three, counterclockwise to eight, and clockwise to one.",
+    "After pulse playback, the ideal event sequence reproduces intervals of four hundred fifty, nine hundred, and four hundred fifty milliseconds.",
+    "The recorded puzzle engine reaches its open state. That result establishes logic behavior for this event sequence only.",
+    "It does not establish servo torque, current draw, printed fit, light diffusion, or mechanical reliability."
+  ],
+  "closing": [
+    "This is the Nebula Vault design submission walkthrough.",
+    "The actual source package includes editable parametric CAD, seven printable parts, a labeled wiring diagram, MicroPython firmware, and a vendor priced bill of materials.",
+    "The enclosure separates the electronics bay and storage area. A servo horn extension engages the lid keeper.",
+    "The package records digital collision checks and logic tests. The visuals here are source diagrams and CAD renders, not physical photographs.",
+    "Printing, fit checks, wiring, servo calibration, electrical measurements, and endurance testing still need to happen."
+  ]
+}

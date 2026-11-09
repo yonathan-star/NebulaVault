@@ -1,0 +1,20 @@
+test_arm_timeout (test_core.PuzzleTests.test_arm_timeout) ... ok
+test_boot_is_open (test_core.PuzzleTests.test_boot_is_open) ... ok
+test_boundary_acceptance (test_core.PuzzleTests.test_boundary_acceptance) ... ok
+test_event_log_is_bounded (test_core.PuzzleTests.test_event_log_is_bounded) ... ok
+test_failure_restarts_whole_puzzle (test_core.PuzzleTests.test_failure_restarts_whole_puzzle) ... ok
+test_full_solution (test_core.PuzzleTests.test_full_solution) ... ok
+test_no_motion_rejected (test_core.PuzzleTests.test_no_motion_rejected) ... ok
+test_outside_boundary_rejected (test_core.PuzzleTests.test_outside_boundary_rejected) ... ok
+test_pixel_power_cap_all_phases (test_core.PuzzleTests.test_pixel_power_cap_all_phases) ... ok
+test_playback_ignores_taps (test_core.PuzzleTests.test_playback_ignores_taps) ... ok
+test_reset_always_opens (test_core.PuzzleTests.test_reset_always_opens) ... ok
+test_rotation_wraps_both_directions (test_core.PuzzleTests.test_rotation_wraps_both_directions) ... ok
+test_timeout_without_last_tap (test_core.PuzzleTests.test_timeout_without_last_tap) ... ok
+test_wrong_direction_rejected (test_core.PuzzleTests.test_wrong_direction_rejected) ... ok
+test_wrong_target_rejected (test_core.PuzzleTests.test_wrong_target_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.003s
+
+OK

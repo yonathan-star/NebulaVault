@@ -1,0 +1,66 @@
+ALL DOCS
+Journalling and timelapses
+
+What counts as a session, how to write an entry a reviewer can check, and how Lapse timelapses back your hours.
+
+What a session is
+
+A session is one sitting of work on one project: you sit down, work, and stop. Every session gets its own journal entry on the map, with the hours that sitting took, ideally logged the same day. Log it while you still remember what you did, because an entry written a week later is a guess, and it reads like one.
+
+Your hours are only as good as the evidence behind them. Reviewers approve hours by reading your entries and watching your timelapses, so an entry that says what happened, shows it, and claims a believable amount of time is the whole job.
+
+Two ways to back your hours
+
+Each session is backed by a written entry, a Lapse timelapse, or both together: pick timelapses on the entry's Timelapse tab, write on the Journal tab, and everything you pick and write lands on the same entry. Either one alone is enough, and together they add.
+
+Type the hours the timelapses don't cover (9.5 means nine and a half): a 5-hour recording plus 2 additional hours logs 7. Leave the box at 0 if the recording covers it all.
+
+Recording with Lapse
+
+Lapse (lapse.hackclub.com) is Hack Club's timelapse app, and it is the only one the platform takes. Start a recording when you sit down to work and it captures your screen or your camera while you go.
+
+You can pause or stop a timelapse at any time. Pause it when you step away (to eat, to answer a message, to wait for a print) and pick it back up when you return, so the recording, and the hours it counts, are only the time you were actually working.
+
+When the session is done, publish the timelapse on Lapse as Unlisted or Public. A private timelapse cannot be watched by a reviewer, so it cannot back any hours, and it will not show up to pick. Then open the entry on your map, switch to the Timelapse tab, sign in with Lapse if it asks (a sign-in lasts about a month), and pick it. Each timelapse can back one entry only.
+
+Screen recording for CAD, KiCad, and firmware.
+A phone on a stand, pointed at the bench, for soldering and assembly.
+Both at once when you are switching between the screen and the bench.
+The rules a written entry has to meet
+
+The editor checks these before it will let you save, and tells you exactly what is missing.
+
+At least 200 characters of writing. Images do not count toward it.
+One image for every additional hour you declare, and never fewer than two: 2 additional hours need two screenshots, however long the timelapses run.
+Markdown works: headings, bold, lists, code and links. Images go in with ![what it shows](link), right where they belong in the story.
+Writing an entry worth reading
+
+The best entries read like a note to yourself three weeks from now, because that is exactly who ends up reading them: you, and a reviewer. Tell the story of the session in the order it happened, and be specific: the part number, the error message, the file you changed. A good entry has these parts:
+
+A headline that says what happened: "Got the screen to work!!" beats "Day 4".
+What you set out to do, and why it was hard. The problem is half the story.
+How you got there: what you looked up, what you tried, what broke, and what finally fixed it. Link the datasheet, repo or forum thread that helped.
+Pictures of the work in progress (screenshots of the schematic or model, photos of the board), placed next to the sentence they prove.
+A one-line tl;dr at the end, so a reviewer skimming a week of entries knows what each one was.
+What is next, so the following session starts where this one stopped.
+See an example journal
+Make it yours
+
+Write your entries yourself, in your own words. Reviewers are reading for your process (the dead ends as much as the wins), and a generated summary does not show one. If writing feels like a chore, talk through the session into a voice memo or a quick video while it is fresh, then write the entry from that.
+
+When an entry is final
+
+You can edit an entry while its week is still open: its words, its hours, and which timelapses back it. Once you submit the week, its entries are what the reviewer is reading, so they cannot be edited until you unsubmit; and once a reviewer has set the hours on an entry, that entry is final.
+
+NEXT
+Funding tiers
+
+ON THIS PAGE
+
+What a session is
+Two ways to back your hours
+Recording with Lapse
+The rules a written entry has to meet
+Writing an entry worth reading
+Make it yours
+When an entry is final

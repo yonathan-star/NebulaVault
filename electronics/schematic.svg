@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<rect width="1400" height="1000" fill="#f7fafc"/>
+<g font-family="Arial" fill="#142638">
+<text x="55" y="55" font-size="29">NEBULA VAULT / ELECTRICAL SCHEMATIC R1</text>
+<text x="55" y="86" font-size="17">Net labels connect equal names. Pico pin numbers are PHYSICAL pins. Prototype harness; no fabricated PCB.</text>
+<rect x="60" y="150" width="330" height="445" rx="5" fill="white" stroke="#526d80" stroke-width="2"/><text x="78" y="182" font-size="20">PICO / RP2040</text>
+<text x="75" y="218" font-size="15">40 VBUS</text><text x="75" y="235" font-size="13" fill="#00636e">→ 5V_USB</text>
+<text x="75" y="256" font-size="15">36 3V3</text><text x="75" y="273" font-size="13" fill="#00636e">→ 3V3</text>
+<text x="75" y="294" font-size="15">38 GND</text><text x="75" y="311" font-size="13" fill="#00636e">→ GND</text>
+<text x="75" y="332" font-size="15">6 GP4</text><text x="75" y="349" font-size="13" fill="#00636e">→ SDA</text>
+<text x="75" y="370" font-size="15">7 GP5</text><text x="75" y="387" font-size="13" fill="#00636e">→ SCL</text>
+<text x="75" y="408" font-size="15">14 GP10</text><text x="75" y="425" font-size="13" fill="#00636e">→ ENC_A</text>
+<text x="75" y="446" font-size="15">15 GP11</text><text x="75" y="463" font-size="13" fill="#00636e">→ ENC_B</text>
+<text x="75" y="484" font-size="15">16 GP12</text><text x="75" y="501" font-size="13" fill="#00636e">→ ENC_SW</text>
+<text x="75" y="522" font-size="15">20 GP15</text><text x="75" y="539" font-size="13" fill="#00636e">→ SERVO_3V3</text>
+<text x="75" y="560" font-size="15">21 GP16</text><text x="75" y="577" font-size="13" fill="#00636e">→ PIXEL_3V3</text>
+<rect x="500" y="150" width="390" height="483" rx="5" fill="white" stroke="#526d80" stroke-width="2"/><text x="518" y="182" font-size="20">SN74AHCT125N / DIP14</text>
+<text x="515" y="218" font-size="15">14 VCC</text><text x="515" y="235" font-size="13" fill="#00636e">→ 5V_USB</text>
+<text x="515" y="256" font-size="15">7 GND</text><text x="515" y="273" font-size="13" fill="#00636e">→ GND</text>
+<text x="515" y="294" font-size="15">1 /1OE</text><text x="515" y="311" font-size="13" fill="#00636e">→ GND</text>
+<text x="515" y="332" font-size="15">2 1A</text><text x="515" y="349" font-size="13" fill="#00636e">→ PIXEL_3V3</text>
+<text x="515" y="370" font-size="15">3 1Y</text><text x="515" y="387" font-size="13" fill="#00636e">→ PIXEL_5V</text>
+<text x="515" y="408" font-size="15">4 /2OE</text><text x="515" y="425" font-size="13" fill="#00636e">→ GND</text>
+<text x="515" y="446" font-size="15">5 2A</text><text x="515" y="463" font-size="13" fill="#00636e">→ SERVO_3V3</text>
+<text x="515" y="484" font-size="15">6 2Y</text><text x="515" y="501" font-size="13" fill="#00636e">→ SERVO_5V</text>
+<text x="515" y="522" font-size="15">10 /3OE; 13 /4OE</text><text x="515" y="539" font-size="13" fill="#00636e">→ 5V_USB</text>
+<text x="515" y="560" font-size="15">9 3A; 12 4A</text><text x="515" y="577" font-size="13" fill="#00636e">→ GND</text>
+<text x="515" y="598" font-size="15">8 3Y; 11 4Y</text><text x="515" y="615" font-size="13" fill="#00636e">→ NC</text>
+<rect x="1000" y="150" width="340" height="407" rx="5" fill="white" stroke="#526d80" stroke-width="2"/><text x="1018" y="182" font-size="20">PERIPHERALS</text>
+<text x="1015" y="218" font-size="15">RING 5V / GND</text><text x="1015" y="235" font-size="13" fill="#00636e">→ 5V_USB / GND</text>
+<text x="1015" y="256" font-size="15">RING DIN</text><text x="1015" y="273" font-size="13" fill="#00636e">→ PIXEL_DIN</text>
+<text x="1015" y="294" font-size="15">SERVO V+ / GND</text><text x="1015" y="311" font-size="13" fill="#00636e">→ 5V_USB / GND</text>
+<text x="1015" y="332" font-size="15">SERVO SIGNAL</text><text x="1015" y="349" font-size="13" fill="#00636e">→ SERVO_5V</text>
+<text x="1015" y="370" font-size="15">OLED VIN / GND</text><text x="1015" y="387" font-size="13" fill="#00636e">→ 3V3 / GND</text>
+<text x="1015" y="408" font-size="15">OLED SDA / SCL</text><text x="1015" y="425" font-size="13" fill="#00636e">→ SDA / SCL</text>
+<text x="1015" y="446" font-size="15">ENC A / B</text><text x="1015" y="463" font-size="13" fill="#00636e">→ ENC_A / ENC_B</text>
+<text x="1015" y="484" font-size="15">ENC COMMON</text><text x="1015" y="501" font-size="13" fill="#00636e">→ GND</text>
+<text x="1015" y="522" font-size="15">ENC SWITCH</text><text x="1015" y="539" font-size="13" fill="#00636e">→ ENC_SW / GND</text>
+<text x="60" y="715" font-size="19">R1: PIXEL_5V — 470Ω — PIXEL_DIN (resistor near ring DIN)</text>
+<text x="60" y="751" font-size="19">C1: 5V_USB — +4700µF (≥10V)− — GND (observe polarity)</text>
+<text x="60" y="787" font-size="19">C2: 5V_USB — 100nF — GND (directly at U2 pins14/7)</text>
+<text x="60" y="823" font-size="19">External 5.25V adapter → Pico micro-USB. Star 5V/GND branches to motor and ring.</text>
+<text x="60" y="859" font-size="19">OLED powered at3.3V. All Pico input pull-ups at3.3V. Never feed5V into a GPIO.</text>
+<text x="60" y="895" font-size="19">U2 unused outputs8/11 are unconnected. All unused inputs and enables are tied.</text>
+<text x="60" y="931" font-size="19">Review mock. Electrical measurements and physical assembly NOT performed.</text>
+</g></svg>

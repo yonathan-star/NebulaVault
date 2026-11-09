@@ -1,0 +1,435 @@
+Window: "DigiKey - Shopping Cart - Google Chrome", App: chrome.exe.
+	0 window DigiKey - Shopping Cart - Google Chrome Secondary Actions: Raise
+		1 pane (disabled)
+		2 region DigiKey - Shopping Cart - Part of group 🛒 Nebula Vault parts - Google Chrome - Yonathan Gal
+			3 region
+				4 region
+					5 region
+						6 button Minimize ID: view_1
+						449 button Maximize ID: view_2
+						8 button Close ID: view_4
+					9 region
+						10 region
+							11 tool bar ID: view_1000
+								12 button Back ID: view_1001
+								13 button (disabled) Forward ID: view_1002
+								14 button Reload ID: view_1003
+								15 group
+									16 button View site information ID: view_1011
+									17 edit (settable, string) Address and search bar Description: Ask Google or type a URL Value: digikey.com/ordering/shoppingcart ID: view_1012
+									18 region
+										19 button Bookmark this tab
+								20 region
+									21 button Some URLs are restricted by your browser or a setting! Has access to this site ID: view_1009
+									22 button ChatGPT Has access to this site ID: view_1009
+									23 button Extensions ID: view_1006
+								24 region
+								25 button Yonathan Gal ID: view_1018
+								26 button Chrome ID: view_1007
+							27 tool bar Bookmarks ID: view_1025
+								28 tool bar Saved Tab Groups
+									29 Saved Tab Group button 🛒 Nebula Vault parts group - Opened ID: view_1028
+									32 button Tab groups
+								33 separator Separator
+								34 Bookmark button Gmail ID: view_1028
+								35 Bookmark button YouTube ID: view_1028
+								36 Bookmark button Maps ID: view_1028
+								37 Bookmark button Unnamed bookmark for www.postlets.com/myposts.php ID: view_1028
+								38 Bookmark button Unnamed bookmark for https://cimcomanagementllc.managebuilding.com/Manager/app/homepage/dashboard ID: view_1028
+								39 Bookmark button Unnamed bookmark for https://dime179.dizinc.com:2083/cpsess4182978714/frontend/x3/mail/pops.html ID: view_1028
+								49 button Menu containing hidden bookmarks
+								50 Bookmark folder button All Bookmarks ID: view_1026
+								51 separator Separator
+						52 region
+							53 region
+								54 region
+								1517 document DigiKey - Shopping Cart Value: https://www.digikey.com/ordering/shoppingcart ID: RootWebArea
+									1655 group
+										1518 header ID: header
+											1519 button Menu
+											1520 graphic DigiKey - Electronic Components Distributor
+											1521 edit (settable, string) Enter keyword or part # Description: Enter keyword or part #
+											1522 button Search ID: header-search-button
+											1656 group
+												1523 link Account Value: https://www.digikey.com/MyDK/Login?site=US&lang=en&returnurl=https%3A%2F%2Fwww.digikey.com%2Fordering%2Fshoppingcart ID: my_digikey_logged_out
+											1657 group
+												1524 link Edit Settings Value: https://www.digikey.com/ordering/shoppingcart# ID: header__open-settings
+													1525 graphic Edit Settings
+											1658 group
+												1526 link Shopping Cart Value: https://www.digikey.com/ordering/shoppingcart?lang=en
+										1527 graphic Digikey
+										1659 group
+											1966 text 
+										1529 list
+											1530 list item Products
+												1531 link Products Value: https://www.digikey.com/en/products
+											1532 list item Manufacturers
+												1533 link Manufacturers Value: https://www.digikey.com/en/supplier-centers
+											1534 list item Resources
+												1661 link Resources
+											1536 list item Request a Quote
+												1537 link Request a Quote Value: https://www.digikey.com/en/mylists/
+										1662 link Tariff Resource Updates Value: https://www.digikey.com/en/resources/tariff-resources
+										1663 form ID: mainForm
+											1967 text 
+											1539 text Attention
+											1968 text -
+											1541 text Due to high order volume, orders may require an additional business day to process.
+											1542 heading Shopping Cart ID: h1CartTitle
+											1666 group
+												1667 group
+													1668 text Add Parts From
+												1669 text 
+											1670 list (settable, string)
+												1671 group
+													1672 option (selectable)
+												1673 group
+													1674 option (selectable) Carts & Orders
+												1675 group
+													1676 option (selectable) Quotes
+												1677 group
+													1678 option (selectable) Lists
+											1962 link  Share Copy
+											1963 text 
+											1964 link  Download
+											1969 text 
+											1683 text Product(s) in your cart will require an additional day of processing.
+											1684 link Learn More Value: https://www.digikey.com/ordering/shoppingcart#
+											1970 table ID: cartDetails
+												1971 row
+													1972 item 1
+														1973 check box (settable, string) ID: chkDelete579908364
+													1974 item 296-4655-5-ND
+														1975 Unlabeled graphic 296-4655-5-ND Description: Click to view larger image
+													1976 item 296-4655-5-ND SN74AHCT125N Texas Instruments IC BUFF 4.5V/5.5V 14-PDIP Customer Reference
+														1977 link 296-4655-5-ND Value: https://www.digikey.com/en/products/detail/texas-instruments/SN74AHCT125N/375798
+														1978 edit (settable, string) Customer Reference Description: Customer Reference ID: cRef579908364
+													1979 item Quantity: 1
+														1980 edit (settable, string) Value: 1 ID: qty579908364
+														1981 combo box (settable, string) ID: Details_0__PartNumber
+													1982 item Availability: Immediate
+													1983 item Unit Price: 0.95000
+													1984 item Extended Price: $0.95
+												1985 row
+													1986 item 2
+														1987 check box (settable, string) ID: chkDelete579908966
+													1988 item 1528-2438-ND
+														1989 Unlabeled graphic 1528-2438-ND Description: Click to view larger image
+													1990 item 1528-2438-ND 377 Adafruit Industries LLC ENCODER MECH QUAD VERT PC PIN ENC1
+														1991 link 1528-2438-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/377/7902287
+														1992 edit (settable, string) Customer Reference Description: Customer Reference Value: ENC1 ID: cRef579908966
+													1993 item Quantity: 1
+														1994 edit (settable, string) Value: 1 ID: qty579908966
+													1995 item Availability: Immediate
+													1996 item Unit Price: 4.50000
+													1997 item Extended Price: $4.50
+												1998 row
+													1999 item 3
+														2000 check box (settable, string) ID: chkDelete579908967
+													2001 item BC1084CT-ND
+														2002 Unlabeled graphic BC1084CT-ND Description: Click to view larger image
+													2003 item BC1084CT-ND K104K15X7RF5TL2 Vishay Beyschlag/Draloric/BC Components CAP CER 0.1UF 50V X7R RADIAL C2
+														2004 link BC1084CT-ND Value: https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+														2005 edit (settable, string) Customer Reference Description: Customer Reference Value: C2 ID: cRef579908967
+													2006 item Quantity: 1 Cut Tape (CT)
+														2007 edit (settable, string) Value: 1 ID: qty579908967
+														2008 combo box (settable, string) Value: Cut Tape (CT) ID: Details_2__PartNumber
+													2009 item Availability: Immediate
+													2010 item Unit Price: 0.29000
+													2011 item Extended Price: $0.29
+												2012 row
+													2013 item Estimated Tariff: 
+														2014 button 
+													2015 item 0.11907
+													2016 item $0.12
+												2017 row
+													2018 item 4
+														2019 check box (settable, string) ID: chkDelete579908968
+													2020 item 1528-1102-ND
+														2021 Unlabeled graphic 1528-1102-ND Description: Click to view larger image
+													2022 item 1528-1102-ND 1643 Adafruit Industries LLC ADDRESS LED RING SERIAL RGB LED1
+														2023 link 1528-1102-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/1643/5154677
+														2024 edit (settable, string) Customer Reference Description: Customer Reference Value: LED1 ID: cRef579908968
+													2025 item Quantity: 1
+														2026 edit (settable, string) Value: 1 ID: qty579908968
+													2027 item Availability: Immediate
+													2028 item Unit Price: 8.95000
+													2029 item Extended Price: $8.95
+												2030 row
+													2031 item 5
+														2032 check box (settable, string) ID: chkDelete579908969
+													2033 item 1528-4440-ND
+														2034 Unlabeled graphic 1528-4440-ND Description: Click to view larger image
+													2035 item 1528-4440-ND 4440 Adafruit Industries LLC I2C OLED DISPLAY STEMMA QWIIC OLED1
+														2036 link 1528-4440-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4440/10824271
+														2037 edit (settable, string) Customer Reference Description: Customer Reference Value: OLED1 ID: cRef579908969
+													2038 item Quantity: 1
+														2039 edit (settable, string) Value: 1 ID: qty579908969
+													2040 item Availability: Immediate
+													2041 item Unit Price: 12.50000
+													2042 item Extended Price: $12.50
+												2043 row
+													2044 item 6
+														2045 check box (settable, string) ID: chkDelete579908970
+													2046 item 1528-1195-ND
+														2047 Unlabeled graphic 1528-1195-ND Description: Click to view larger image
+													2048 item 1528-1195-ND 1609 Adafruit Industries LLC BREADBOARD GENERAL PURPOSE PTH PROTO1
+														2049 link 1528-1195-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/1609/5353655
+														2050 edit (settable, string) Customer Reference Description: Customer Reference Value: PROTO1 ID: cRef579908970
+													2051 item Quantity: 1
+														2052 edit (settable, string) Value: 1 ID: qty579908970
+													2053 item Availability: Backorder
+													2054 item Unit Price: 4.50000
+													2055 item Extended Price: $4.50
+												2056 row
+													2057 item 1 estimated in stock on 02-Feb-2027
+												2058 row
+													2059 item 7
+														2060 check box (settable, string) ID: chkDelete579909100
+													2061 item 1528-1961-ND
+														2062 Unlabeled graphic 1528-1961-ND Description: Click to view larger image
+													2063 item 1528-1961-ND 1950 Adafruit Industries LLC JUMPER WIRE F TO F 6" 28AWG WIRE1
+														2064 link 1528-1961-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/1950/6827084
+														2065 edit (settable, string) Customer Reference Description: Customer Reference Value: WIRE1 ID: cRef579909100
+													2066 item Quantity: 2
+														2067 edit (settable, string) Value: 2 ID: qty579909100
+													2068 item Availability: Immediate
+													2069 item Unit Price: 1.95000
+													2070 item Extended Price: $3.90
+												2071 row
+													2072 item 8
+														2073 check box (settable, string) ID: chkDelete579909101
+													2074 item 1528-1995-ND
+														2075 Unlabeled graphic 1528-1995-ND Description: Click to view larger image
+													2076 item 1528-1995-ND 1995 Adafruit Industries LLC AC/DC WALL MOUNT ADAPTER 5.25V PWR1
+														2077 link 1528-1995-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/1995/7902284
+														2078 edit (settable, string) Customer Reference Description: Customer Reference Value: PWR1 ID: cRef579909101
+													2079 item Quantity: 1
+														2080 edit (settable, string) Value: 1 ID: qty579909101
+													2081 item Availability: Immediate
+													2082 item Unit Price: 8.25000
+													2083 item Extended Price: $8.25
+												2084 row
+													2085 item 9
+														2086 check box (settable, string) ID: chkDelete579909102
+													2087 item 1528-4685-ND
+														2088 Unlabeled graphic 1528-4685-ND Description: Click to view larger image
+													2089 item 1528-4685-ND 4685 Adafruit Industries LLC BLACK NYLON SCREW AND STAND-OFF HW1
+														2090 link 1528-4685-ND Value: https://www.digikey.com/en/products/detail/adafruit-industries-llc/4685/13180686
+														2091 edit (settable, string) Customer Reference Description: Customer Reference Value: HW1 ID: cRef579909102
+													2092 item Quantity: 1
+														2093 edit (settable, string) Value: 1 ID: qty579909102
+													2094 item Availability: Immediate
+													2095 item Unit Price: 16.95000
+													2096 item Extended Price: $16.95
+											1685 group ID: addToListButton
+												1558 text Add to List
+											1686 group ID: saveForLaterButton
+												1559 text Save for Later
+											1687 group ID: deleteButton
+												2097 text 
+												1561 text Delete
+											1689 heading Manual Entry
+											1690 text QUANTITY:
+											1691 edit (settable, string) Quantity Description: Quantity ID: parts_0__quantity
+											1692 text PART NUMBER:
+											1693 edit (settable, string) Part Number Description: Part Number ID: parts_0__partNumber
+											1694 text CUSTOMER REFERENCE:
+											1695 group
+												2100 text 
+											1697 edit (settable, string) Customer Reference Description: Customer Reference ID: parts_0__cRef
+											1698 text 
+											1699 group ID: btnAddToCart
+												1700 text Add to Cart
+											1562 heading Upload a File
+											1701 form ID: dropzoneForm
+												2101 text 
+												1703 text Upload a File:
+												1704 text Drag a file here (.xls, .xlsx, .csv, .txt) or
+												1705 text Browse
+												1706 text .
+											1563 heading Bulk Add
+											1564 edit (settable, string) One product per line, delimiter must be a comma. (5, P4525-ND, ABC123) Description: One product per line, delimiter must be a comma. (5, P4525-ND, ABC123) ID: textImportTextArea
+											1565 button Add to Cart ID: btnImportParts
+											1707 text Web ID:
+											1708 text 
+											1922 text 379038593
+											1965 link  New Cart Value: https://www.digikey.com/ordering/ShoppingCart/ShoppingCart/NewCart
+											1566 text Cart Summary
+											1923 text Subtotal
+											1924 text $60.79
+											1925 text Shipping
+											1926 group
+												2102 text 
+											1928 text *
+											1929 text $8.49
+											1930 text Tariff
+											1931 button 
+											1932 text *
+											1933 text $0.12
+											1934 text Total
+											1935 text *
+											1936 text $69.40
+											1937 text * Estimates
+											1938 group
+												2103 text 
+											1940 combo box (settable, string) Value: FedEx Ground | 8.49 ID: shipMethodDropdown
+											1941 group
+												1942 button FedEx Ground | 8.49
+												2104 text 
+											1579 group ID: primaryButtonRight
+												2105 text 
+												1581 text Checkout as Guest
+											1582 text Already Registered?
+											1583 link Log In
+											1584 graphic Icon security
+											1585 text Your data will be encrypted and transmitted securely.
+											1586 text Information:
+											1587 text By clicking Submit Order you agree to DigiKey’s
+											1588 link Terms of Use and Conditions of Order Value: https://www.digikey.com/en/terms-and-conditions
+											1589 text and
+											1590 link Privacy Notice Value: https://www.digikey.com/en/help/privacy
+											1591 text .
+										1716 group
+											2106 text 
+											1593 text 
+											1594 text Need Help?
+										1718 group ID: feedback
+											2107 text 
+											1596 text 
+											1597 text Feedback
+										1598 text Get the latest tech insights
+										1599 edit (settable, string) Enter your email Description: Enter your email
+										1600 button Subscribe
+										1601 check box (settable, string) I agree to receive marketing emails from DigiKey. I understand that I can withdraw consent at any time. Please review our Privacy Notice. ID: dk-subscribe-cb1
+										1602 text I agree to receive marketing emails from DigiKey. I understand that I can withdraw consent at any time. Please review our
+										1603 link Privacy Notice Value: https://www.digikey.com/en/help/Privacy
+										1604 text .
+										1605 heading SUBSCRIBE
+										1606 link Facebook Value: https://www.facebook.com/digikey.electronics
+											1607 graphic Facebook
+										1608 link X Value: https://www.x.com/digikey
+											1609 Unlabeled graphic X
+										1610 link YouTube Value: https://www.youtube.com/@digikey
+											1611 graphic YouTube
+										1612 link Instagram Value: https://www.instagram.com/digikey/
+											1613 graphic Instagram
+										1614 link LinkedIn Value: https://www.linkedin.com/company/digikey
+											1615 graphic LinkedIn
+										1616 link Download on the App Store Value: https://itunes.apple.com/us/app/digikey/id352075219?mt=8
+											1617 graphic Download on the App Store
+										1618 link Get it on Google Play Value: https://play.google.com/store/apps/details?id=com.digikey.mobile
+											1619 graphic Get it on Google Play
+										1620 heading INFORMATION
+										1621 link About DigiKey Value: https://www.digikey.com/en/resources/about-digikey
+										1622 link Careers Value: https://www.digikey.com/en/resources/human-resources/careers
+										1623 link Newsroom Value: https://www.digikey.com/en/newsroom
+										1624 link Sell on DigiKey.com Value: https://www.digikey.com/en/resources/sell-on-dk
+										1625 link Site map Value: https://www.digikey.com/en/help/site-map
+										1626 link Tariff information Value: https://www.digikey.com/en/resources/tariff-resources
+										1627 heading CONTACT AND SUPPORT
+										1628 link Contact us Value: javascript:dk.modal("#helpModal%22).show()
+										1629 link Help and support Value: https://www.digikey.com/en/help-support
+										1630 link Order status Value: https://www.digikey.com/orderhistory/guest/orderstatus
+										1631 link Returns and order issues Value: https://www.digikey.com/mydigikey/returns
+										1632 link Shipping rates/options Value: https://www.digikey.com/en/help-support/delivery-information/delivery-time-and-cost
+										1633 link Terms & Conditions Value: https://www.digikey.com/en/terms-and-conditions
+										1634 text 
+										1635 link Privacy Notice Value: https://www.digikey.com/en/help/Privacy
+										1636 text 
+										1637 link Trade Compliance Value: https://www.digikey.com/en/help/trade-compliance-program
+										1638 text 
+										1639 link Accessibility Statement Value: https://www.digikey.com/en/help-support/fraud-and-security/accessibility-statement
+										1640 text 
+										1747 link Cookie Settings
+										1642 text 
+										1643 link Do Not Sell / Do Not Share My Personal Information Value: https://www.digikey.com/en/help/optoutsaleshare
+										1644 text Local Support: 701 Brooks Avenue South, Thief River Falls, MN 56701 USA
+										1645 text Copyright © 1995-2026, DigiKey.
+										1646 text All Rights Reserved.
+										1647 link Value: https://www.digikey.com/en/help/authorized-distributor
+										1720 group ID: ssl-seal-wrapper
+										1648 link Value: https://www.digikey.com/en/help/authorized-distributor
+										1721 group
+											1722 edit (settable, string) Type to search... Description: Type to search...
+											1723 list
+												1724 list item FedEx Ground | 8.49
+												1725 list item UPS Ground | 8.49
+												1726 list item FedEx Saver (3-Day Delivery) | 16.99
+												1727 list item UPS 3-Day Delivery | 17.99
+												1728 list item FedEx Economy (2nd Day Air) | 13.99
+												1729 list item UPS 2nd Day Air | 13.99
+												1730 list item FedEx Overnight P.M. Delivery | 26.99
+												1731 list item UPS Overnight P.M. Delivery | 26.99
+												1732 list item FedEx Overnight A.M. Delivery | 29.99
+												1733 list item UPS Overnight | 29.99
+												1734 list item FedEx First Overnight A.M. Delivery | 149.99
+												1735 list item UPS Next Day Air Early A.M. | 149.99
+												1736 list item USPS Ground Advantage | 4.99
+												1737 list item Priority Mail | 13.99
+												1738 list item Priority Mail Express | 49.99
+										1783 group
+											1784 edit (settable, string) Type to search... Description: Type to search...
+											1785 list
+												1786 list item FedEx Ground | 8.49
+												1787 list item UPS Ground | 8.49
+												1788 list item FedEx Saver (3-Day Delivery) | 16.99
+												1789 list item UPS 3-Day Delivery | 17.99
+												1790 list item FedEx Economy (2nd Day Air) | 13.99
+												1791 list item UPS 2nd Day Air | 13.99
+												1792 list item FedEx Overnight P.M. Delivery | 26.99
+												1793 list item UPS Overnight P.M. Delivery | 26.99
+												1794 list item FedEx Overnight A.M. Delivery | 29.99
+												1795 list item UPS Overnight | 29.99
+												1796 list item FedEx First Overnight A.M. Delivery | 149.99
+												1797 list item UPS Next Day Air Early A.M. | 149.99
+												1798 list item USPS Ground Advantage | 4.99
+												1799 list item Priority Mail | 13.99
+												1800 list item Priority Mail Express | 49.99
+										1944 group
+											1945 edit (settable, string) Type to search... Description: Type to search...
+											1946 list
+												1947 list item FedEx Ground | 8.49
+												1948 list item UPS Ground | 8.49
+												1949 list item FedEx Saver (3-Day Delivery) | 16.99
+												1950 list item UPS 3-Day Delivery | 17.99
+												1951 list item FedEx Economy (2nd Day Air) | 13.99
+												1952 list item UPS 2nd Day Air | 13.99
+												1953 list item FedEx Overnight P.M. Delivery | 26.99
+												1954 list item UPS Overnight P.M. Delivery | 26.99
+												1955 list item FedEx Overnight A.M. Delivery | 29.99
+												1956 list item UPS Overnight | 29.99
+												1957 list item FedEx First Overnight A.M. Delivery | 149.99
+												1958 list item UPS Next Day Air Early A.M. | 149.99
+												1959 list item USPS Ground Advantage | 4.99
+												1960 list item Priority Mail | 13.99
+												1961 list item Priority Mail Express | 49.99
+									1739 group grammarly-integration
+										1740 text {"mode":"full","isActive":true,"isUserDisabled":false}
+							430 region
+						431 region
+							432 region
+								433 button Tab search
+							434 region ID: view_21
+								435 tab
+									436 tab group 🛒 Nebula Vault parts - 2 tabs, • Half Life: become a hardware expert in 10 weeks, • DigiKey - Shopping Cart - Expanded
+									437 tab item (selectable) Half Life: become a hardware expert in 10 weeks - Part of group 🛒 Nebula Vault parts - Memory usage - 344 MB ID: view_20
+									439 tab item (selectable) DigiKey - Shopping Cart - Part of group 🛒 Nebula Vault parts - Memory usage - 236 MB ID: view_20
+										440 button Close
+									441 region
+								442 region
+							443 button New Tab
+							444 region
+							445 region
+								446 button Open Gemini in Chrome
+								447 region
+						448 region
+
+Document text: ```
+￼
+```
+
+Focused element: 17 edit (settable, string) Address and search bar Description: Ask Google or type a URL Value: digikey.com/ordering/shoppingcart ID: view_1012
+
+Document text:
+￼

@@ -1,0 +1,136 @@
+EXPLORE
+
+BY SAMUEL · report
+
+Scara Robot
+
+It is an high precision robot arm with 2 axis rotation.
+
+12.5h logged
+·
+4 entries
+
+FREESTYLE
+weeks 5 & 10
+·
+github.com/SavySamuel/HackClub_Week-5
+
+TIMELINE
+newest first
+Journal entry
+2h logged
+report
+8 Nov 2026
+November 2
+
+There were so many errors when I tried to correct lengths and all and as such I have been correcting it. Also found that I need a bearing at joints too.
+
+I am correcting stuffs and here I have reached:
+
+Before: (For reference)
+
+The core idea remains same but this is the improvement without which it cannot work.
+
+Improved:
+
+Lower Gear
+
+Upper Gear (Incomplete, am having to create from scratch)
+
+Also have added mount to the a4 paper tray:
+
+Minor change in this but it was crucial
+show the whole entry
+Journal entry
+4h logged
+report
+8 Nov 2026
+November 9
+
+Ok I have laid out the exact foundation that I would love to finalize the project on.
+
+Session's End Result:
+
+For creating the gear, I first tried manuel editing but ultimately just used feature script as I needed this part really accurate.
+
+The featurescript I used is "Timing Belt Pulley" which had gear formation helper for GT2 and GT3:
+
+Using that as a base, I designed the rotating thing to be:
+
+Which was used as rotating part by GT2:
+
+Then I designed a tray of a4 paper size for reference and attached an arm:
+
+This ultimately led to this session's result:
+
+Now I have to calculate the required length and all and modify accordingly, and then design the main arm after which I can call the CAD complete
+
+Also here is (for fun), how I began this session: i.e by visualizing part I would need
+
+show the whole entry
+Posted a reel
+report
+8 Nov 2026
+
+Progress Report on Scara Robot so far
+
+Journal entry
+4.5h logged
+report
+7 Nov 2026
+November 8
+
+Ok so lots of research and experiments later, I have started my project:
+
+This is what the final product will have: (2 Stepper motors to move arms of robot from a single shared shaft which will contain bearings)
+
+I have used respective color for what each stepper will control
+
+Firstly I wasted some time figuring out the dimensions of stepper and then the GT2 and the bearings but in the end, for the stepper and GT2, I have decided to import CAD models to use as reference
+
+Then I ran into another problem, i.e how would I control two separate part from one point and while they are conflicting each other for control.
+
+The solution, "I just moved a stepper up" (It took for me a full day's break just to realize T_T)
+
+One of the solutions I had tried:
+
+Though it looks identical, the GT2's ends have been flipped and one goes more depth inside of the body of the project. But ultimately, it didn't provide the clearance I had hoped for.
+
+Another one was trying to extend the ends of the Stepper B, and after trying many times I just gave up on creating the symmetry and decided to lift stepper B up:
+Now, I can just adjust the height of stepper by increasing matterial beneath (And yes its a box, where you would put in the stepper, though it looks like a solid block from this perspective)
+
+And now currently I am working on the main shaft before moving on to the arm:
+
+The grey one is placeholder for a bearing of: 12mm Inner Diameter x 21mm Outer Diameter x 5mm Height
+
+I am trying to create a shape that can be glued on to the bearing that will be controlled by the stepper and also extends to be the arm control
+
+Post note,
+
+Since it might be hard to visualize what I want from just the screenshot, here is a visual that an LLM has generated:
+
+Also I forgot to take ScreenShots as progress marks (I had one more design/failure before settling on this)
+
+Also here is my attempt at stepper (I looked up dimensions in google) before I had decided on using models:
+
+show the whole entry
+Journal entry
+2h logged
+report
+3 Nov 2026
+November 4
+
+All the research that I have done for this project till now (so much more still left to find out)
+
+I took an inspiration from human arm to make a robot's arm. Turns out this concept of mine has a name "Scara Robot", which are fast, precise pick-and-place robotic arms.
+
+I had failed in week 2 to create a machine that can write but hopefully with more preparations, I can make week 5's goal successful.
+
+My research notes on this so far, by tomorrow I should be able to start building this thing:
+
+show the whole entry
+Posted a reel
+report
+3 Nov 2026
+
+Idea Reel: Planning to build a scara robot for week 5

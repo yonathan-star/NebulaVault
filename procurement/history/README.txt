@@ -1,0 +1,1 @@
+SUPERSEDED EVIDENCE. These captures show the initial cart, including a backordered board and the earlier FedEx shipping estimate. See ../CARTS.md and ../digikey-final-* for the reconciled final cart.

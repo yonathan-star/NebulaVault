@@ -1,0 +1,38 @@
+[
+  {
+    "file": "NebulaVault-Idea-Reel.mp4",
+    "seconds": 33.042666666,
+    "width": 720,
+    "height": 1280,
+    "full_audio_video_decode": "passed",
+    "physical_device_footage": false,
+    "new_test_results_claimed": false
+  },
+  {
+    "file": "NebulaVault-Progress-Reel.mp4",
+    "seconds": 33.042666666,
+    "width": 720,
+    "height": 1280,
+    "full_audio_video_decode": "passed",
+    "physical_device_footage": false,
+    "new_test_results_claimed": false
+  },
+  {
+    "file": "NebulaVault-Late-Reel.mp4",
+    "seconds": 35.302666666,
+    "width": 720,
+    "height": 1280,
+    "full_audio_video_decode": "passed",
+    "physical_device_footage": false,
+    "new_test_results_claimed": false
+  },
+  {
+    "file": "NebulaVault-Closing-Reel.mp4",
+    "seconds": 35.542666666,
+    "width": 720,
+    "height": 1280,
+    "full_audio_video_decode": "passed",
+    "physical_device_footage": false,
+    "new_test_results_claimed": false
+  }
+]

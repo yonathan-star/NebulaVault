@@ -1,0 +1,88 @@
+ALL DOCS
+Shipping a week
+
+What your repo needs, what the submit sheet asks for, and what reviewers check.
+
+What shipping means
+
+Shipping is making your project something other people can open, understand and rebuild. A project that only exists on your laptop has not shipped, and a reviewer cannot approve what they cannot see. The week's work lives in a public repo, and the repo is the first thing a reviewer opens.
+
+AI usage, project quality, and originality
+
+Failure to meet the below expectations may result in your project being rejected.
+
+You may not use AI to generate any graphics used in the final GitHub repo.
+You may use AI to help with coding, up to ~30% of code can be generated, the majority should still be your own work.
+Journals and your README cannot be written with the help of AI.
+Your project should be polished, something you'd be proud to show to others, and something that you can potentially sell as a product!
+Copied designs, stolen project files, and more will result in a rejection and a potential ban from Half Life and Hack Club as a whole
+Projects should be original, with most parts being designed by you. That means depending on the week, you cannot for example buy a kit, or use only premade modules for a project
+If you take a starter project, write your own project description. The starter's default description blocks submission, so say what you changed and why it is yours.
+Your repo
+
+The submit sheet checks your repo before it lets you submit. A missing README, a README with too little text or too few photos, or a missing required file blocks the submit and tells you what to add. Recommended files, including a BOM table in the README, are flagged but never block.
+
+Every week: a public repo, with a README that has enough text and photos in it.
+PCB week: board and schematic source files (.kicad_pcb, .kicad_sch), a bom.csv, and firmware for the board (Arduino .ino, C/C++, MicroPython or CircuitPython). Recommended: Gerbers (a .zip is fine) and a BOM table in the README.
+CAD week: an editable source (.f3d, .f3z, .fcstd, .sldprt, .sldasm) or an Onshape link in your README, project description or demo links. A .step export on its own is accepted but flagged, because a reviewer cannot edit it. Tinkercad, OpenSCAD, Blender and STL-only exports are not accepted as the source. Recommended: printable models (.stl, .3mf) and a BOM table in the README.
+Music week: a schematic (KiCad, Logisim or Digital). Recommended: firmware.
+Displays week: firmware or code. Recommended: a schematic.
+Freestyle week: nothing beyond the README and photos. Recommended: PCB design files, CAD source files and firmware, whichever your project has.
+A README worth reading
+
+A folder of files and two sentences is not documentation. Write the README for someone who has never heard of your project and wants to build one:
+
+The submit sheet checks three hard floors: at least 200 characters of text (images do not count towards it), at least three lines of text, and at least two images.
+
+What it is, and why you made it.
+How it works: how the parts fit together.
+Photos and screenshots: the schematic, the board layout, the 3D model, and the real thing once it exists.
+A wiring diagram, if anything is wired by hand.
+The bill of materials, as a table with prices and links to where each part is bought.
+How to write the README
+Source files, not exports
+
+Upload the files someone would need to change your design, not just look at it. A PDF of a schematic is not a schematic, and an STL is not a CAD model. For the CAD week, Tinkercad, OpenSCAD and Blender are not accepted as the final source: export an editable file from Fusion, FreeCAD or SolidWorks, or link the Onshape document from your README, project description or demo links. Keep the repo organised in folders, with firmware, libraries and anything you referenced alongside it.
+
+Submitting a design week
+
+After the repo check, the submit sheet asks for three things:
+
+Your bill of materials, with a real vendor and a real price on every line.
+Screenshots of your cart with the total visible, one per vendor if the order is split, so the total can be checked.
+Your tier. Your hours have to reach that tier's minimum; the sheet shows which tiers they cover.
+A closing reel: pan across the schematic, the layout and the render, and talk over it.
+Submitting a build week
+
+One demo video: point the camera at the thing, turn it on, and talk over it. Then say whether it works. If it does not, that is still a valid submission. Record what happens, and write up what went wrong and what needs to change. Reviewers pass honest failures and fail silent ones.
+
+Anything you changed while building (the firmware, the model, a fix to the board) goes in your journal and in the repo too.
+
+Before your first submit
+
+You need at least one logged session for the week, a project description of at least 100 characters, and a cover image on the project. The cover is what your project's card and the review queue show, so it has to be a photo or screenshot of the project itself, not a logo or a stock photo.
+
+Your Hack Club identity has to be verified at auth.hackclub.com before you can buy anything in the shop. You can explore, journal and submit without it.
+
+What gets a week sent back
+
+Reviewers can approve a week, send it back with changes to make, or reject it. A week sent back can be fixed and submitted again. The usual reasons:
+
+The README does not explain the project, or has too little text or too few photos.
+Source files are missing, or only exports are there.
+The journal does not back the hours claimed.
+The BOM does not match the cart, or has no real prices.
+NEXT
+Making a reel
+
+ON THIS PAGE
+
+What shipping means
+AI usage, project quality, and originality
+Your repo
+A README worth reading
+Source files, not exports
+Submitting a design week
+Submitting a build week
+Before your first submit
+What gets a week sent back

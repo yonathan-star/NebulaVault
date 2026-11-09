@@ -1,0 +1,566 @@
+- banner:
+  - text: 
+  - img "DigiKey - Electronic Components Distributor"
+  - 'searchbox "Enter keyword or part #"'
+  - button "Search":  
+  - button " Upload a List"
+  - link "Account":
+    - /url: https://www.digikey.com/MyDK/Login?site=US&lang=en&returnurl=https%3A%2F%2Fwww.digikey.com%2Fordering%2Fshoppingcart
+    - generic: Login or
+    - generic: REGISTER 
+  - text: 
+  - link "Edit Settings":
+    - /url: "#"
+    - img "Edit Settings"
+  - link "Shopping Cart":
+    - /url: /ordering/shoppingcart?lang=en
+    - text:  10 item(s) 
+- text: 
+- list:
+  - link "Products ":
+    - /url: /en/products
+  - text:                 
+  - link "Manufacturers ":
+    - /url: /en/supplier-centers
+  - text:                
+  - generic: Resources 
+  - text:    
+  - link "Request a Quote":
+    - /url: /en/mylists/
+- link "Tariff Resource Updates":
+  - /url: /en/resources/tariff-resources
+- text:  
+- generic: 
+- generic: Attention - Due to high order volume, orders may require an additional business day to process.
+- heading "Shopping Cart" [level=1]
+- option "Add Parts From" [selected]
+- option
+- option "Carts & Orders"
+- option "Quotes"
+- option "Lists"
+- generic: Add Parts From
+- generic: 
+- listbox:
+  - option
+  - text: Carts & Orders
+  - option "Carts & Orders":
+    - generic: Carts & Orders
+  - text: Quotes
+  - option "Quotes":
+    - generic: Quotes
+  - text: Lists
+  - option "Lists":
+    - generic: Lists
+- generic: 
+- text: Share Copy
+- generic: 
+- text: Download
+- text:  
+- generic: 
+- text: Product(s) in your cart will require an additional day of processing.
+- link "Learn More":
+  - /url: "#"
+- text: 
+- table:
+  - rowgroup:
+    - row "Product Details Quantity Availability Unit Price Extended Price":
+      - columnheader:
+        - checkbox
+      - columnheader
+      - columnheader "Product Details"
+      - columnheader "Quantity"
+      - columnheader "Availability"
+      - columnheader "Unit Price"
+      - columnheader "Extended Price"
+  - rowgroup:
+    - row "1 296-4655-5-ND 296-4655-5-ND SN74AHCT125N Texas Instruments IC BUFF 4.5V/5.5V 14-PDIP 1 Immediate 0.95000 $0.95":
+      - cell "1":
+        - checkbox
+        - text: "1"
+      - cell "296-4655-5-ND":
+        - img "296-4655-5-ND"
+      - cell "296-4655-5-ND SN74AHCT125N Texas Instruments IC BUFF 4.5V/5.5V 14-PDIP":
+        - link "296-4655-5-ND":
+          - /url: /en/products/detail/texas-instruments/SN74AHCT125N/375798
+        - generic: SN74AHCT125N
+        - generic: Texas Instruments
+        - generic: IC BUFF 4.5V/5.5V 14-PDIP
+        - textbox "Customer Reference"
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+        - combobox:
+          - option [selected]
+          - option
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "0.95000":
+        - generic: ": 0.95000"
+      - cell "$0.95":
+        - generic: ": $0.95"
+    - row "2 1528-2438-ND 1528-2438-ND 377 Adafruit Industries LLC ENCODER MECH QUAD VERT PC PIN ENC1 1 Immediate 4.50000 $4.50":
+      - cell "2":
+        - checkbox
+        - text: "2"
+      - cell "1528-2438-ND":
+        - img "1528-2438-ND"
+      - cell "1528-2438-ND 377 Adafruit Industries LLC ENCODER MECH QUAD VERT PC PIN ENC1":
+        - link "1528-2438-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/377/7902287
+        - generic: "377"
+        - generic: Adafruit Industries LLC
+        - generic: ENCODER MECH QUAD VERT PC PIN
+        - textbox "Customer Reference": ENC1
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "4.50000":
+        - generic: ": 4.50000"
+      - cell "$4.50":
+        - generic: ": $4.50"
+    - row "3 BC1084CT-ND BC1084CT-ND K104K15X7RF5TL2 Vishay Beyschlag/Draloric/BC Components CAP CER 0.1UF 50V X7R RADIAL C2 1 Cut Tape (CT) Immediate 0.29000 $0.29":
+      - cell "3":
+        - checkbox
+        - text: "3"
+      - cell "BC1084CT-ND":
+        - img "BC1084CT-ND"
+      - cell "BC1084CT-ND K104K15X7RF5TL2 Vishay Beyschlag/Draloric/BC Components CAP CER 0.1UF 50V X7R RADIAL C2":
+        - link "BC1084CT-ND":
+          - /url: /en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+        - generic: K104K15X7RF5TL2
+        - generic: Vishay Beyschlag/Draloric/BC Components
+        - generic: CAP CER 0.1UF 50V X7R RADIAL
+        - textbox "Customer Reference": C2
+      - cell "1 Cut Tape (CT)":
+        - text: ":"
+        - textbox: "1"
+        - combobox:
+          - option "Cut Tape (CT)" [selected]
+          - option "Tape & Reel"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "0.29000":
+        - generic: ": 0.29000"
+      - cell "$0.29":
+        - generic: ": $0.29"
+    - 'row "Estimated Tariff:  0.11907 $0.12"':
+      - 'cell "Estimated Tariff: "':
+        - text: "Estimated Tariff:"
+        - button ""
+      - cell "0.11907":
+        - generic: "0.11907"
+      - cell "$0.12":
+        - generic: $0.12
+    - row "4 1528-1102-ND 1528-1102-ND 1643 Adafruit Industries LLC ADDRESS LED RING SERIAL RGB LED1 1 Immediate 8.95000 $8.95":
+      - cell "4":
+        - checkbox
+        - text: "4"
+      - cell "1528-1102-ND":
+        - img "1528-1102-ND"
+      - cell "1528-1102-ND 1643 Adafruit Industries LLC ADDRESS LED RING SERIAL RGB LED1":
+        - link "1528-1102-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/1643/5154677
+        - generic: "1643"
+        - generic: Adafruit Industries LLC
+        - generic: ADDRESS LED RING SERIAL RGB
+        - textbox "Customer Reference": LED1
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "8.95000":
+        - generic: ": 8.95000"
+      - cell "$8.95":
+        - generic: ": $8.95"
+    - row "5 1528-4440-ND 1528-4440-ND 4440 Adafruit Industries LLC I2C OLED DISPLAY STEMMA QWIIC OLED1 1 Immediate 12.50000 $12.50":
+      - cell "5":
+        - checkbox
+        - text: "5"
+      - cell "1528-4440-ND":
+        - img "1528-4440-ND"
+      - cell "1528-4440-ND 4440 Adafruit Industries LLC I2C OLED DISPLAY STEMMA QWIIC OLED1":
+        - link "1528-4440-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/4440/10824271
+        - generic: "4440"
+        - generic: Adafruit Industries LLC
+        - generic: I2C OLED DISPLAY STEMMA QWIIC
+        - textbox "Customer Reference": OLED1
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "12.50000":
+        - generic: ": 12.50000"
+      - cell "$12.50":
+        - generic: ": $12.50"
+    - row "6 1528-1961-ND 1528-1961-ND 1950 Adafruit Industries LLC JUMPER WIRE F TO F 6\" 28AWG WIRE1 2 Immediate 1.95000 $3.90":
+      - cell "6":
+        - checkbox
+        - text: "6"
+      - cell "1528-1961-ND":
+        - img "1528-1961-ND"
+      - cell "1528-1961-ND 1950 Adafruit Industries LLC JUMPER WIRE F TO F 6\" 28AWG WIRE1":
+        - link "1528-1961-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/1950/6827084
+        - generic: "1950"
+        - generic: Adafruit Industries LLC
+        - generic: JUMPER WIRE F TO F 6" 28AWG
+        - textbox "Customer Reference": WIRE1
+      - cell "2":
+        - text: ":"
+        - textbox: "2"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "1.95000":
+        - generic: ": 1.95000"
+      - cell "$3.90":
+        - generic: ": $3.90"
+    - row "7 1528-1995-ND 1528-1995-ND 1995 Adafruit Industries LLC AC/DC WALL MOUNT ADAPTER 5.25V PWR1 1 Immediate 8.25000 $8.25":
+      - cell "7":
+        - checkbox
+        - text: "7"
+      - cell "1528-1995-ND":
+        - img "1528-1995-ND"
+      - cell "1528-1995-ND 1995 Adafruit Industries LLC AC/DC WALL MOUNT ADAPTER 5.25V PWR1":
+        - link "1528-1995-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/1995/7902284
+        - generic: "1995"
+        - generic: Adafruit Industries LLC
+        - generic: AC/DC WALL MOUNT ADAPTER 5.25V
+        - textbox "Customer Reference": PWR1
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "8.25000":
+        - generic: ": 8.25000"
+      - cell "$8.25":
+        - generic: ": $8.25"
+    - row "8 1528-4685-ND 1528-4685-ND 4685 Adafruit Industries LLC BLACK NYLON SCREW AND STAND-OFF HW1 1 Immediate 16.95000 $16.95":
+      - cell "8":
+        - checkbox
+        - text: "8"
+      - cell "1528-4685-ND":
+        - img "1528-4685-ND"
+      - cell "1528-4685-ND 4685 Adafruit Industries LLC BLACK NYLON SCREW AND STAND-OFF HW1":
+        - link "1528-4685-ND":
+          - /url: /en/products/detail/adafruit-industries-llc/4685/13180686
+        - generic: "4685"
+        - generic: Adafruit Industries LLC
+        - generic: BLACK NYLON SCREW AND STAND-OFF
+        - textbox "Customer Reference": HW1
+      - cell "1":
+        - text: ":"
+        - textbox: "1"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "16.95000":
+        - generic: ": 16.95000"
+      - cell "$16.95":
+        - generic: ": $16.95"
+    - row "9 CF14JT470RCT-ND CF14JT470RCT-ND CF14JT470R Stackpole Electronics Inc RES 470 OHM 5% 1/4W AXIAL R1 1 Cut Tape (CT) Immediate 0.10000 $0.10":
+      - cell "9":
+        - checkbox
+        - text: "9"
+      - cell "CF14JT470RCT-ND":
+        - img "CF14JT470RCT-ND"
+      - cell "CF14JT470RCT-ND CF14JT470R Stackpole Electronics Inc RES 470 OHM 5% 1/4W AXIAL R1":
+        - link "CF14JT470RCT-ND":
+          - /url: /en/products/detail/stackpole-electronics-inc/CF14JT470R/1741440
+        - generic: CF14JT470R
+        - generic: Stackpole Electronics Inc
+        - generic: RES 470 OHM 5% 1/4W AXIAL
+        - textbox "Customer Reference": R1
+      - cell "1 Cut Tape (CT)":
+        - text: ":"
+        - textbox: "1"
+        - combobox:
+          - option "Cut Tape (CT)" [selected]
+          - option "Tape & Reel"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "0.10000":
+        - generic: ": 0.10000"
+      - cell "$0.10":
+        - generic: ": $0.10"
+    - 'row "Estimated Tariff:  0.03375 $0.03"':
+      - 'cell "Estimated Tariff: "':
+        - text: "Estimated Tariff:"
+        - button ""
+      - cell "0.03375":
+        - generic: "0.03375"
+      - cell "$0.03":
+        - generic: $0.03
+    - row "10 298-1020-ND 298-1020-ND PLT1M-C Panduit Corp CBL TIE LOCKING NAT 18LB 3.90\" TIES1 4 Immediate 0.25000 $1.00":
+      - cell "10":
+        - checkbox
+        - text: "10"
+      - cell "298-1020-ND":
+        - img "298-1020-ND"
+      - cell "298-1020-ND PLT1M-C Panduit Corp CBL TIE LOCKING NAT 18LB 3.90\" TIES1":
+        - link "298-1020-ND":
+          - /url: /en/products/detail/panduit-corp/PLT1M-C/280033
+        - generic: PLT1M-C
+        - generic: Panduit Corp
+        - generic: CBL TIE LOCKING NAT 18LB 3.90"
+        - textbox "Customer Reference": TIES1
+      - cell "4":
+        - text: ":"
+        - textbox: "4"
+      - cell "Immediate":
+        - text: ":"
+        - generic: Immediate
+      - cell "0.25000":
+        - generic: ": 0.25000"
+      - cell "$1.00":
+        - generic: ": $1.00"
+- generic: Add to List
+- generic: Save for Later
+- generic: 
+- text: Delete
+- text:  
+- heading "Manual Entry" [level=2]
+- generic: "Quantity:"
+- textbox "Quantity"
+- generic: "Part Number:"
+- textbox "Part Number"
+- text: 
+- text: "Customer Reference:"
+- generic: 
+- textbox "Customer Reference"
+- generic: Add to Cart
+- generic: 
+- heading "Upload a File" [level=2]
+- generic: 
+- generic: "Upload a File: Drag a file here (.xls, .xlsx, .csv, .txt) or Browse."
+- text:  
+- heading "Bulk Add" [level=2]
+- textbox "One product per line, delimiter must be a comma. (5, P4525-ND, ABC123)"
+- button "Add to Cart" [active]
+- generic: "Web ID: 379038593"
+- link " New Cart":
+  - /url: /ordering/ShoppingCart/ShoppingCart/NewCart
+  - generic: 
+  - text: New Cart
+- generic: Cart Summary
+- text: Subtotal
+- generic: $57.39
+- text: Shipping
+- generic: "* $4.99"
+- text: Tariff
+- button ""
+- generic: "* $0.15"
+- text: Total
+- generic: "* $62.53"
+- generic: "* Estimates "
+- combobox:
+  - option "FedEx Ground | 8.49"
+  - option "UPS Ground | 8.49"
+  - option "FedEx Saver (3-Day Delivery) | 16.99"
+  - option "UPS 3-Day Delivery | 17.99"
+  - option "FedEx Economy (2nd Day Air) | 13.99"
+  - option "UPS 2nd Day Air | 13.99"
+  - option "FedEx Overnight P.M. Delivery | 26.99"
+  - option "UPS Overnight P.M. Delivery | 26.99"
+  - option "FedEx Overnight A.M. Delivery | 29.99"
+  - option "UPS Overnight | 29.99"
+  - option "FedEx First Overnight A.M. Delivery | 149.99"
+  - option "UPS Next Day Air Early A.M. | 149.99"
+  - option "USPS Ground Advantage | 4.99" [selected]
+  - option "Priority Mail | 13.99"
+  - option "Priority Mail Express | 49.99"
+- button "USPS Ground Advantage | 4.99":
+  - generic "USPS Ground Advantage | 4.99"
+- generic: 
+- generic: 
+- text: Checkout as Guest
+- generic: Already Registered? Log In
+- img "Icon security"
+- generic: Your data will be encrypted and transmitted securely.
+- text: "Information: By clicking Submit Order you agree to DigiKey’s"
+- link "Terms of Use and Conditions of Order":
+  - /url: ../en/terms-and-conditions
+- text: and
+- link "Privacy Notice":
+  - /url: ../en/help/privacy
+- text: .
+- text:        * *  
+- text:      
+- paragraph
+- text:         
+- text:          Email us  
+- generic:  Need Help?
+- generic:  Feedback
+- generic: Get the latest tech insights
+- textbox "Enter your email"
+- button "Subscribe"
+- text: 
+- checkbox "I agree to receive marketing emails from DigiKey. I understand that I can withdraw consent at any time. Please review our Privacy Notice."
+- text: I agree to receive marketing emails from DigiKey. I understand that I can withdraw consent at any time. Please review our
+- link "Privacy Notice":
+  - /url: /en/help/Privacy
+- text: .
+- text: 
+- heading "Subscribe" [level=4]
+- link "Facebook":
+  - /url: https://www.facebook.com/digikey.electronics
+  - img "Facebook"
+- link "X":
+  - /url: https://www.x.com/digikey
+  - img "X"
+- link "YouTube":
+  - /url: https://www.youtube.com/@digikey
+  - img "YouTube"
+- link "Instagram":
+  - /url: https://www.instagram.com/digikey/
+  - img "Instagram"
+- link "LinkedIn":
+  - /url: https://www.linkedin.com/company/digikey
+  - img "LinkedIn"
+- link "Download on the App Store":
+  - /url: https://itunes.apple.com/us/app/digikey/id352075219?mt=8
+  - img "Download on the App Store"
+- link "Get it on Google Play":
+  - /url: https://play.google.com/store/apps/details?id=com.digikey.mobile
+  - img "Get it on Google Play"
+- heading "Information" [level=4]
+- link "About DigiKey":
+  - /url: /en/resources/about-digikey
+- link "Careers":
+  - /url: /en/resources/human-resources/careers
+- link "Newsroom":
+  - /url: /en/newsroom
+- link "Sell on DigiKey.com":
+  - /url: /en/resources/sell-on-dk
+- link "Site map":
+  - /url: /en/help/site-map
+- link "Tariff information":
+  - /url: /en/resources/tariff-resources
+- heading "Contact and support" [level=4]
+- link "Contact us":
+  - /url: javascript:dk.modal("#helpModal").show()
+- link "Help and support":
+  - /url: /en/help-support
+- link "Order status":
+  - /url: /orderhistory/guest/orderstatus
+- link "Returns and order issues":
+  - /url: /mydigikey/returns
+- link "Shipping rates/options":
+  - /url: /en/help-support/delivery-information/delivery-time-and-cost
+- link "Terms & Conditions":
+  - /url: /en/terms-and-conditions
+- link "Privacy Notice":
+  - /url: /en/help/Privacy
+- link "Trade Compliance":
+  - /url: /en/help/trade-compliance-program
+- link "Accessibility Statement":
+  - /url: /en/help-support/fraud-and-security/accessibility-statement
+- text: Cookie Settings
+- link "Do Not Sell / Do Not Share My Personal Information":
+  - /url: /en/help/optoutsaleshare
+- generic: "Local Support: 701 Brooks Avenue South, Thief River Falls, MN 56701 USA"
+- generic: Copyright © 1995-2026, DigiKey.
+- generic: All Rights Reserved.
+- link:
+  - /url: /en/help/authorized-distributor
+- link:
+  - /url: /en/help/authorized-distributor
+- textbox "Type to search..."
+- list:
+  - listitem: FedEx Ground | 8.49
+  - listitem: UPS Ground | 8.49
+  - listitem: FedEx Saver (3-Day Delivery) | 16.99
+  - listitem: UPS 3-Day Delivery | 17.99
+  - listitem: FedEx Economy (2nd Day Air) | 13.99
+  - listitem: UPS 2nd Day Air | 13.99
+  - listitem: FedEx Overnight P.M. Delivery | 26.99
+  - listitem: UPS Overnight P.M. Delivery | 26.99
+  - listitem: FedEx Overnight A.M. Delivery | 29.99
+  - listitem: UPS Overnight | 29.99
+  - listitem: FedEx First Overnight A.M. Delivery | 149.99
+  - listitem: UPS Next Day Air Early A.M. | 149.99
+  - listitem: USPS Ground Advantage | 4.99
+  - listitem: Priority Mail | 13.99
+  - listitem: Priority Mail Express | 49.99
+- textbox "Type to search..."
+- list:
+  - listitem: FedEx Ground | 8.49
+  - listitem: UPS Ground | 8.49
+  - listitem: FedEx Saver (3-Day Delivery) | 16.99
+  - listitem: UPS 3-Day Delivery | 17.99
+  - listitem: FedEx Economy (2nd Day Air) | 13.99
+  - listitem: UPS 2nd Day Air | 13.99
+  - listitem: FedEx Overnight P.M. Delivery | 26.99
+  - listitem: UPS Overnight P.M. Delivery | 26.99
+  - listitem: FedEx Overnight A.M. Delivery | 29.99
+  - listitem: UPS Overnight | 29.99
+  - listitem: FedEx First Overnight A.M. Delivery | 149.99
+  - listitem: UPS Next Day Air Early A.M. | 149.99
+  - listitem: USPS Ground Advantage | 4.99
+  - listitem: Priority Mail | 13.99
+  - listitem: Priority Mail Express | 49.99
+- textbox "Type to search..."
+- list:
+  - listitem: FedEx Ground | 8.49
+  - listitem: UPS Ground | 8.49
+  - listitem: FedEx Saver (3-Day Delivery) | 16.99
+  - listitem: UPS 3-Day Delivery | 17.99
+  - listitem: FedEx Economy (2nd Day Air) | 13.99
+  - listitem: UPS 2nd Day Air | 13.99
+  - listitem: FedEx Overnight P.M. Delivery | 26.99
+  - listitem: UPS Overnight P.M. Delivery | 26.99
+  - listitem: FedEx Overnight A.M. Delivery | 29.99
+  - listitem: UPS Overnight | 29.99
+  - listitem: FedEx First Overnight A.M. Delivery | 149.99
+  - listitem: UPS Next Day Air Early A.M. | 149.99
+  - listitem: USPS Ground Advantage | 4.99
+  - listitem: Priority Mail | 13.99
+  - listitem: Priority Mail Express | 49.99
+- textbox "Type to search..."
+- list:
+  - listitem: FedEx Ground | 8.49
+  - listitem: UPS Ground | 8.49
+  - listitem: FedEx Saver (3-Day Delivery) | 16.99
+  - listitem: UPS 3-Day Delivery | 17.99
+  - listitem: FedEx Economy (2nd Day Air) | 13.99
+  - listitem: UPS 2nd Day Air | 13.99
+  - listitem: FedEx Overnight P.M. Delivery | 26.99
+  - listitem: UPS Overnight P.M. Delivery | 26.99
+  - listitem: FedEx Overnight A.M. Delivery | 29.99
+  - listitem: UPS Overnight | 29.99
+  - listitem: FedEx First Overnight A.M. Delivery | 149.99
+  - listitem: UPS Next Day Air Early A.M. | 149.99
+  - listitem: USPS Ground Advantage | 4.99
+  - listitem: Priority Mail | 13.99
+  - listitem: Priority Mail Express | 49.99
+- textbox "Type to search..."
+- list:
+  - listitem: FedEx Ground | 8.49
+  - listitem: UPS Ground | 8.49
+  - listitem: FedEx Saver (3-Day Delivery) | 16.99
+  - listitem: UPS 3-Day Delivery | 17.99
+  - listitem: FedEx Economy (2nd Day Air) | 13.99
+  - listitem: UPS 2nd Day Air | 13.99
+  - listitem: FedEx Overnight P.M. Delivery | 26.99
+  - listitem: UPS Overnight P.M. Delivery | 26.99
+  - listitem: FedEx Overnight A.M. Delivery | 29.99
+  - listitem: UPS Overnight | 29.99
+  - listitem: FedEx First Overnight A.M. Delivery | 149.99
+  - listitem: UPS Next Day Air Early A.M. | 149.99
+  - listitem: USPS Ground Advantage | 4.99
+  - listitem: Priority Mail | 13.99
+  - listitem: Priority Mail Express | 49.99

@@ -1,0 +1,22 @@
+{
+  "logic_tests": {
+    "passed": 15,
+    "failed": 0
+  },
+  "syntax_files": 3,
+  "valid_single_solid_CAD_parts": 7,
+  "checked_static_intersections_mm3": {
+    "lid_body_intersection_mm3": 0.0,
+    "latch_body_intersection_mm3": 0.0,
+    "latch_lid_intersection_mm3": 0.0,
+    "diffuser_lid_intersection_mm3": 0.0
+  },
+  "priced_BOM_lines": 15,
+  "adafruit_merchandise_usd": 20.35,
+  "digikey_merchandise_usd": 57.39,
+  "known_combined_amount_usd": 82.88,
+  "local_markdown_links_valid": true,
+  "physical_tests": "not performed",
+  "tier3_qualified": false,
+  "cart_evidence": "real vendor screenshots; both carts match priced lines"
+}

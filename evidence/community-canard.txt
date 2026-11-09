@@ -1,0 +1,137 @@
+EXPLORE
+
+BY AAHAN · report
+
+Canard
+
+Building a compact 60-70% keyboard while minimizing cost and difficulty in getting used to it featuring a split spacebar and extra buttons!
+
+20h logged
+·
+6 entries
+
+FREESTYLE
+weeks 5 & 10
+·
+github.com/Aahan-1105/Canard
+
+TIMELINE
+newest first
+Journal entry
+3h logged
+report
+8 Nov 2026
+Case CAD Done! | Canard70
+
+Hey there! I started off by importing my KiCad PCB into Fusion 360 and added my socketed Nice!nano along with the power connector to the assembly!
+
+I then projected some important features onto a sketch and created my case around the PCB! I'm aiming for a very minimal look so its actually super simple, so it didn't take too long, which is awesome!
+
+Initial sketch:
+
+Case design before finishing touches:
+
+I then proceeded to add fillets and chambers as needed as my finishing touches!
+
+That's it for my CAD! I'll be moving on to code for now.
+
+show the whole entry
+Posted a reel
+report
+8 Nov 2026
+
+PCB DONE! | 15h progress update | Canard70
+
+Journal entry
+2h logged
+report
+8 Nov 2026
+PCB IS DONE! | Canard70
+
+I started off by fixing my mapping for + and - on the battery connector. I checked a friends PCB to be doubly sure of the right order and then went ahead and updated it.
+
+Before:
+
+After:
+
+I then added some basic info on the silkscreen and rounded off the edges.
+
+Starting on the case now!
+
+show the whole entry
+Journal entry
+6h logged
+report
+8 Nov 2026
+Traces Done! | Canard70
+
+I spent a bunch of time tracing and hooking everything up, trying to keep everything neat and organized, but the 6x12 grid for a 5x14 board made parts of it very tough...
+
+I started of with the simple columns and rows
+
+I then went ahead to start on the "column highway".
+
+The area pictured below was near the end as I was running out of time, but I did my best to make it work within my time constraint.
+
+I also went over the traces a couple time to ensure the fill zone was still good and there weren't any large islands I'd missed.
+
+Here's a photo in pcb editor and 3d viewer with all the layers and the traces done.
+
+I'll now add a silkscreen and some finishing touches such as fillets on the corners, before doing the case and firmware, and then submitting.
+
+show the whole entry
+Journal entry
+3h logged
+report
+8 Nov 2026
+Layout and Fill Zone Done! | Canard70
+
+Hey y'all! I started off the day placing my diodes with their respective switches and ensuring that the placement is both consistent, and that the traces are gonna be neat and ez to do!
+
+I then did some research on plate mount vs pcb mount stabilizers and landed on pcb mount stabilizers for my goals. I'll just need to make sure I double check my placements and the wiring as some diodes are cutting it a bit close...
+
+Forgot to mention it above, but I also added my edge cuts and mounting holes, but I might add 2 more near the center for stability etc.
+
+Lastly, I added my signature hatched fill zone to simplify traces and add some great depth to the keyboard!
+
+I'm starting traces now!
+show the whole entry
+Posted a reel
+report
+8 Nov 2026
+
+PCB Layout Almost Done | 6h Progress Reel | Canard70
+
+Journal entry
+3h logged
+report
+6 Nov 2026
+Matrix Fixed and Switches Laid Out | Canard70
+
+Hope y'all are having a great time with your projects! after manually rechecking my matrix, I realized I'd accidentally created a 6x11 instead of a 6x12, so I fixed that. The screen shot also excludes the 2 switches I removed for budget and packaging reasons, as the Nice!nano and battery occupy their space.
+
+I also spent a LOT of time positioning my switches accurately while constantly checking it based off of my MacBook's keyboard, my drawing of the layout, and a picture of the keycaps I plan on using. I also made sure to have everything aligned to the grid as intended and that the widers keys (1.25, 1.5, 1.75...) were placed accurately!
+
+As you can see, I have to now place the diodes and sort out the spacing for the nice_nano, followed by traces and the finishing touches!
+
+Can't wait to submit (and then build) this keyboard!
+show the whole entry
+Journal entry
+3h logged
+report
+6 Nov 2026
+Keyboard Size and Schematic Done | Canard70
+
+Hey there! New week, new project! This week I'm working on Canard70, a compact 65%-style keyboard with some extra touches including a split spacebar. I first spent about an hour researching and figuring out the layout and size, as well as the number of keys and how I'll map it. I changed my mind and added a number row, taking it from 55 to 70 keys! Therefore I'm using a 6x12 matrix instead of a 5x14 like it actually is.
+
+I then mapped out exactly how my wiring path for the matrix would look like (because it is 6x12) and also chose my mappings on the nice_nano accordingly. Finally I added the switch matrix into my schematic.
+
+Lastly I added the Nice!nano and the supporting battery circuit, rounding off my schematic. I will add a reset button, mounting holes, and stabilizers as needed later.
+
+See y'all in the next one!
+show the whole entry
+Posted a reel
+report
+6 Nov 2026
+
+Idea Reel | Canard Keyboard

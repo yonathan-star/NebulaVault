@@ -1,0 +1,90 @@
+{
+  "project": "NebulaVault",
+  "state": "Prepared locally; submission on hold at user request while another chat works",
+  "submitted": false,
+  "receipt": null,
+  "original_project_author": "Yonathan",
+  "owner_confirmed_actual_hours": 20,
+  "invented_session_dates_or_allocations": false,
+  "new_design_tests_run": false,
+  "engineering_python_AST_unchanged_except_docstrings": true,
+  "original_evidence_files_unchanged": [
+    "cad/body.step",
+    "cad/body.stl",
+    "cad/dial_cap.step",
+    "cad/dial_cap.stl",
+    "cad/diffuser.step",
+    "cad/diffuser.stl",
+    "cad/fit_coupon.step",
+    "cad/fit_coupon.stl",
+    "cad/latch.step",
+    "cad/latch.stl",
+    "cad/lid.step",
+    "cad/lid.stl",
+    "cad/NebulaVault_R1.step",
+    "cad/oled_strap.step",
+    "cad/oled_strap.stl",
+    "electronics/netlist.csv",
+    "electronics/schematic.svg",
+    "electronics/wiring.md",
+    "evidence/cad-build.txt",
+    "evidence/community-canard.txt",
+    "evidence/community-lazy-light.txt",
+    "evidence/community-scara.txt",
+    "evidence/journalling-observed.txt",
+    "evidence/package-checks.json",
+    "evidence/submitting-observed.txt",
+    "evidence/submitting.jpg",
+    "evidence/test-results.txt",
+    "evidence/verification-scope.txt",
+    "simulation/run.py",
+    "simulation/solution-trace.json",
+    "tests/test_core.py"
+  ],
+  "original_archive_sha256": "af80580def39ca9154cc09ad7edbbb066b19cffa1d9245d7f0baf84058b38a4d",
+  "video_checks": [
+    {
+      "file": "NebulaVault-Idea-Reel.mp4",
+      "seconds": 33.042666666,
+      "width": 720,
+      "height": 1280,
+      "full_audio_video_decode": "passed",
+      "physical_device_footage": false,
+      "new_test_results_claimed": false
+    },
+    {
+      "file": "NebulaVault-Progress-Reel.mp4",
+      "seconds": 33.042666666,
+      "width": 720,
+      "height": 1280,
+      "full_audio_video_decode": "passed",
+      "physical_device_footage": false,
+      "new_test_results_claimed": false
+    },
+    {
+      "file": "NebulaVault-Late-Reel.mp4",
+      "seconds": 35.302666666,
+      "width": 720,
+      "height": 1280,
+      "full_audio_video_decode": "passed",
+      "physical_device_footage": false,
+      "new_test_results_claimed": false
+    },
+    {
+      "file": "NebulaVault-Closing-Reel.mp4",
+      "seconds": 35.542666666,
+      "width": 720,
+      "height": 1280,
+      "full_audio_video_decode": "passed",
+      "physical_device_footage": false,
+      "new_test_results_claimed": false
+    }
+  ],
+  "open_items": [
+    "Chrome page control unavailable: page reads/screenshots fail before interaction; native desktop API unavailable",
+    "Live required fields, repository publication and acceptance unverified",
+    "Existing design notes need actual session dates/allocations only if live form requires them",
+    "Printing/workshop costs, Adafruit shipping and sales taxes remain unknown"
+  ],
+  "live_submission_authorization": "Hold until user indicates other chat is finished"
+}

@@ -1,0 +1,206 @@
+{
+  "kind": "executed ideal event simulation of firmware/core.py",
+  "trace": [
+    {
+      "time_ms": 0,
+      "action": "boot",
+      "phase": "READY",
+      "position": 0,
+      "locked": false,
+      "message": "PRESS TO ARM"
+    },
+    {
+      "time_ms": 0,
+      "action": "arm",
+      "phase": "ORBIT",
+      "position": 0,
+      "locked": true,
+      "message": "ORBIT 1  CW > 03"
+    },
+    {
+      "time_ms": 80,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 1,
+      "locked": true,
+      "message": "ORBIT 1  POS 01"
+    },
+    {
+      "time_ms": 160,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 2,
+      "locked": true,
+      "message": "ORBIT 1  POS 02"
+    },
+    {
+      "time_ms": 240,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 3,
+      "locked": true,
+      "message": "ORBIT 1  POS 03"
+    },
+    {
+      "time_ms": 340,
+      "action": "confirm",
+      "phase": "ORBIT",
+      "position": 3,
+      "locked": true,
+      "message": "ORBIT 2  CCW > 08"
+    },
+    {
+      "time_ms": 420,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 2,
+      "locked": true,
+      "message": "ORBIT 2  POS 02"
+    },
+    {
+      "time_ms": 500,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 1,
+      "locked": true,
+      "message": "ORBIT 2  POS 01"
+    },
+    {
+      "time_ms": 580,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 0,
+      "locked": true,
+      "message": "ORBIT 2  POS 00"
+    },
+    {
+      "time_ms": 660,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 11,
+      "locked": true,
+      "message": "ORBIT 2  POS 11"
+    },
+    {
+      "time_ms": 740,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 10,
+      "locked": true,
+      "message": "ORBIT 2  POS 10"
+    },
+    {
+      "time_ms": 820,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 9,
+      "locked": true,
+      "message": "ORBIT 2  POS 09"
+    },
+    {
+      "time_ms": 900,
+      "action": "CCW",
+      "phase": "ORBIT",
+      "position": 8,
+      "locked": true,
+      "message": "ORBIT 2  POS 08"
+    },
+    {
+      "time_ms": 1000,
+      "action": "confirm",
+      "phase": "ORBIT",
+      "position": 8,
+      "locked": true,
+      "message": "ORBIT 3  CW > 01"
+    },
+    {
+      "time_ms": 1080,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 9,
+      "locked": true,
+      "message": "ORBIT 3  POS 09"
+    },
+    {
+      "time_ms": 1160,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 10,
+      "locked": true,
+      "message": "ORBIT 3  POS 10"
+    },
+    {
+      "time_ms": 1240,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 11,
+      "locked": true,
+      "message": "ORBIT 3  POS 11"
+    },
+    {
+      "time_ms": 1320,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 0,
+      "locked": true,
+      "message": "ORBIT 3  POS 00"
+    },
+    {
+      "time_ms": 1400,
+      "action": "CW",
+      "phase": "ORBIT",
+      "position": 1,
+      "locked": true,
+      "message": "ORBIT 3  POS 01"
+    },
+    {
+      "time_ms": 1500,
+      "action": "confirm",
+      "phase": "PLAYBACK",
+      "position": 1,
+      "locked": true,
+      "message": "WATCH THE PULSE"
+    },
+    {
+      "time_ms": 4100,
+      "action": "playback complete",
+      "phase": "ARM",
+      "position": 1,
+      "locked": true,
+      "message": "TAP THEN REPEAT"
+    },
+    {
+      "time_ms": 4400,
+      "action": "first tap",
+      "phase": "PULSE",
+      "position": 1,
+      "locked": true,
+      "message": "PULSE 1 / 3"
+    },
+    {
+      "time_ms": 4850,
+      "action": "next tap",
+      "phase": "PULSE",
+      "position": 1,
+      "locked": true,
+      "message": "PULSE 2 / 3"
+    },
+    {
+      "time_ms": 5750,
+      "action": "next tap",
+      "phase": "PULSE",
+      "position": 1,
+      "locked": true,
+      "message": "PULSE 3 / 3"
+    },
+    {
+      "time_ms": 6200,
+      "action": "next tap",
+      "phase": "OPEN",
+      "position": 1,
+      "locked": false,
+      "message": "CORE RECOVERED"
+    }
+  ],
+  "physical_hardware": false
+}

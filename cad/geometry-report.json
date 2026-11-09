@@ -1,0 +1,89 @@
+{
+  "units": "mm",
+  "revision": "R1",
+  "parts": {
+    "body": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 282150.0,
+      "bounds_mm": [
+        180.0,
+        140.5,
+        90.0
+      ]
+    },
+    "lid": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 83076.09,
+      "bounds_mm": [
+        180.0,
+        140.0,
+        18.0
+      ]
+    },
+    "diffuser": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1209.588,
+      "bounds_mm": [
+        55.0,
+        40.0,
+        1.6
+      ]
+    },
+    "latch": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 367.562,
+      "bounds_mm": [
+        12.0,
+        23.0,
+        2.0
+      ]
+    },
+    "oled_strap": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 539.683,
+      "bounds_mm": [
+        8.0,
+        36.0,
+        2.0
+      ]
+    },
+    "dial_cap": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1144.357,
+      "bounds_mm": [
+        18.0,
+        18.5,
+        12.0
+      ]
+    },
+    "fit_coupon": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1854.305,
+      "bounds_mm": [
+        50.0,
+        16.0,
+        3.0
+      ]
+    }
+  },
+  "limitations": [
+    "Envelope references are simplified, not vendor-certified CAD.",
+    "No physical tolerance, torque, optical diffusion or fatigue validation.",
+    "CadQuery source is supplied for Freestyle; no claim of CAD-week eligibility."
+  ],
+  "checks": {
+    "lid_body_intersection_mm3": 0.0,
+    "latch_body_intersection_mm3": 0.0,
+    "latch_lid_intersection_mm3": 0.0,
+    "skirt_nominal_side_clearance_mm": 0.4,
+    "horn_top_to_keeper_roof_mm": 1.0,
+    "diffuser_lid_intersection_mm3": 0.0
+  }
+}

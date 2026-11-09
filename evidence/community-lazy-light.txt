@@ -1,0 +1,164 @@
+EXPLORE
+
+BY SRIRAM · report
+
+Lazy Light
+
+When you get in bed and finish reading your book and get nice and cozy, what is the most dreaded thing? Turning off the light. That light switch, so far away, can now be turned on or off remotely with the LazyLight.
+
+20.5h logged
+·
+5 entries
+
+FREESTYLE
+weeks 5 & 10
+·
+github.com/madadisriram11-web/Lazy-Light
+
+TIMELINE
+newest first
+Posted a reel
+report
+8 Nov 2026
+
+finished all the design weeks!!!
+
+Journal entry
+6.5h logged
+report
+8 Nov 2026
+
+Day 5: Code
+
+I started by writing my program scripts. I will not be writing too much text because I have everything explained to myself with comments:
+
+Then I realized that this code would not work because my light switch is the type that has a protrusion, not the flat rectangle, so I would need to have this not go back to angle 0:
+
+Finally, I decided to add a button to make it so that I could on/off the button if the servo goes haywire:
+
+And I updated my schematic:
+
+show the whole entry
+Journal entry
+3.5h logged
+report
+8 Nov 2026
+
+Day 4: Learning my libraries
+
+Not much to say about today, just that I needed to learn the libraries for the IR sensor module and the Servo
+
+Servo: https://docs.arduino.cc/libraries/servo/
+
+YT videos I used: https://www.youtube.com/watch?v=QbgTl6VSA9Y&pp=ygUkaG93IHRvIGNvZGUgYSBzZXJ2byBtb3RvciBpbiBhcmR1aW5v
+
+https://www.youtube.com/watch?v=iWPgiA36g04&pp=ygUkaG93IHRvIGNvZGUgYSBzZXJ2byBtb3RvciBpbiBhcmR1aW5v
+
+https://www.youtube.com/watch?v=fPrPRZlGdvA&list=PLHvJ4bw0xno5u_Hv2nf9Hj3DWW5jLdwMz&pp=0gcJCR0Ga94AFGB0
+
+IR Receiver:
+
+https://github.com/Arduino-IRremote/Arduino-IRremote?tab=readme-ov-file#tutorials
+
+(There is more but that GitHub is massive)
+
+YT links: https://www.youtube.com/watch?v=q97VE3oEwIc&pp=ygUlaG93IHRvIGNvZGUgYW4gaXIgcmVjZWl2ZXIgaW4gYXJkdWlubw%3D%3D
+
+https://www.youtube.com/watch?v=IYYOoyjQS-8&pp=ygUlaG93IHRvIGNvZGUgYW4gaXIgcmVjZWl2ZXIgaW4gYXJkdWlubw%3D%3D
+
+https://www.youtube.com/watch?v=Y2HC3bdFoPw&pp=ygUlaG93IHRvIGNvZGUgYW4gaXIgcmVjZWl2ZXIgaW4gYXJkdWlubw%3D%3D
+
+Finally, I looked into the software I needed to use in VS Code for Arduino: PlatformIO
+
+YouTube links: https://www.youtube.com/watch?v=dany7ae_0ks
+
+I also used the PlatformIO official site, along with my old Arduino IDE tutorials
+
+show the whole entry
+Journal entry
+1.5h logged
+report
+7 Nov 2026
+
+Day 3: Schematic
+
+This was a decently simple schematic
+
+I created a few of the pieces in the part creator feature in KiCad:
+
+And I outsourced 1. I tried to make the servo myself at first, but when I realized that outsourcing is much quicker and more sensible:
+
+Then I routed everything together. I was debating for a while whether I should make a PCB before I remembered that I was already broke in the budget ( with like a total of 10 cents left), so I "decided" against it.
+
+show the whole entry
+Posted a reel
+report
+7 Nov 2026
+
+5 hr: CAD
+
+Journal entry
+5.5h logged
+report
+7 Nov 2026
+
+Day 2: CAD - Actual Poop
+
+So today I had to work on my CAD models, and it took an extremely long amount of time because online CAD shippers actually suck with the amount of $ it costs to get a part.
+
+I started with a basic shape:
+
+It was held to the wall by command tape and had a little notch where the motor needed to go.
+
+Then, I needed to start tuning the spacing for the motor placement. I used this helpful little guide I found on Reddit for all of the measurements:
+
+I used these measurements to get the exact hole measurements:
+
+Then, I worked on the rest of the body and finished that.
+
+Then I worked getting the actual servo onto the body:
+
+and then got the arm on the servo:
+
+Then I made the part that will actually turn on and off the light:
+
+I attached this to the servo, but the measurements were off, so I spent quite some time trying to fix that.
+
+Then I submitted my design to JLC3DP, and i was greeted by a disguisting creature of man called an invoice:
+
+I was actually livid. This was a simple $3 off budget. So I took out quite a lot of material
+
+Even this was not enoughm, so I took out more:
+
+Finally, I created the standoff:
+
+show the whole entry
+Journal entry
+3.5h logged
+report
+5 Nov 2026
+
+Day 1: Polish Design Idea and Start CAD
+
+Today I worked on my design idea and CAD.
+
+Basically, my design is something that can turn on the light for me without me getting out of bed. My primary concern was the way to mount it to the wall, because if it stained the wall, my mum would get real mad at me. I decided to use some Command tape (I don't know the official name):
+
+Then, I started working on my BOM. For my project, I knew I wanted some mechanism to lift the light, but I wasn't sure how. I was debating between a pulley system and a physical rack and pinion when I came up with this:
+
+The idea is to have a wheel with spokes that pushes the light switch on and off. For this, you need decent torque, so I ordered the MG90S, a metal-gear servo motor.
+
+Then, I realized that I had run out of wires to use at my home for projects, so I needed to some wire, so I put an order for a roll of solid-core wire.
+
+I alse needed an IR module so I could turn it on and off remotely:
+
+And a power cable for power:
+
+Then I started on my CAD. I did not get much done because V1 was expensive, so I slimmed it down, and I need to start working on the finer aspects of it
+
+show the whole entry
+Posted a reel
+report
+4 Nov 2026
+
+idea reel: automatic light turn offer (great name I know)

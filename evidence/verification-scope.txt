@@ -1,0 +1,1 @@
+Python syntax compiled for all application files. Desktop core tests executed. Firmware hardware imports/driver communication, motor torque, real encoder bounce and electrical signals have not been exercised on a Pico. The simulation runs the same core.py used by main.py; it is an event model, not SPICE or a hardware emulator.

@@ -1,0 +1,9 @@
+NEBULAVAULT — PREPARED, NOT SUBMITTED
+
+Original author: Yonathan. Owner confirms 20 actual design hours . No session dates or hour allocations invented.
+
+Four distinct reels are in media/: Idea, Progress (5h checkpoint candidate), Late (15h checkpoint candidate), Closing. All are retrospective project-file walkthroughs; recorded software simulation is labeled. Exact checkpoint-content rules remain unverified.
+
+Cover candidate: previews/assembled.png (actual CAD render, not a photo). Source: cad/, electronics/, firmware/. Existing evidence remains in evidence/ and simulation/. Original ZIP is unchanged. BOM and real cart screenshots remain in procurement/. Known amount $82.88, with printing, workshop costs, Adafruit shipping and taxes unresolved. Do not invent zero-cost entries.
+
+Live submission is on hold while the user’s other chat finishes. Chrome page control is unavailable in this chat. No new project, repository, journal session or submission has been created. No acceptance receipt exists.
