@@ -1,8 +1,8 @@
 {
   "project": "NebulaVault",
-  "state": "Live Week 5 Tier 3 draft prepared; NOT SUBMITTED; updated cost evidence pending",
-  "submitted": false,
-  "receipt": null,
+  "state": "Submitted — with reviewers, confirmed in Half-Life UI",
+  "submitted": true,
+  "receipt": "https://halflife.hackclub.com/projects/kanab7bhr7tvbyfi0qms9zld",
   "original_project_author": "Yonathan",
   "owner_confirmed_actual_hours": 20,
   "invented_session_dates_or_allocations": false,
@@ -48,29 +48,41 @@
     }
   ],
   "open_items": [
-    "Supplied estimate $137.13 is $37.13 over the $100 Tier 3 grant",
-    "Consumables $19.95 lacks verified vendor and itemized pricing",
-    "Updated Adafruit, DigiKey and Polymaker checkout screenshots not supplied",
-    "Over-budget acknowledgement awaits user response"
+    "Reviewer approval and final tier assignment pending",
+    "Physical construction and bench testing remain unfinished",
+    "Checkout amounts are estimates; Polymaker tax may change with full checkout details"
   ],
   "live_submission_authorization": "User explicitly authorized publication, uploads and final submission on November 8, 2026",
   "project_url": "https://halflife.hackclub.com/projects/kanab7bhr7tvbyfi0qms9zld",
   "public_repository": "https://github.com/yonathan-star/NebulaVault",
   "live_progress": [
-    "20 hours saved as four user-supplied 5h journals, Monday Nov 2 through Thursday Nov 5",
-    "Idea, Progress and Late reels posted with retrospective evidence labels",
-    "Cover and 15 accurately priced merchandise lines saved",
-    "Five genuine cart screenshots and Closing reel uploaded to final sheet",
-    "Original project files and ZIP archives not changed"
+    "20 actual design hours saved in four user-supplied five-hour sessions, Monday November 2 through Thursday November 5",
+    "Idea, Progress and Late reels posted with retrospective labels",
+    "Closing reel uploaded and posted with final submission",
+    "Eight genuine cart screenshots included with submission; personal contact/address images excluded",
+    "17 priced purchase BOM lines; source, firmware, CAD, tests and cover published",
+    "No purchase or message performed; original Downloads project and ZIP archives unchanged"
   ],
   "updated_costs": {
-    "unresolved_consumables_estimate_usd": 19.95,
-    "excess_usd": 37.13,
-    "shipping_tariff_tax_estimates_usd": 19.45,
+    "digikey_usd": 66.56,
+    "mounting_tape": "Two Adafruit 5019 packs, $0.75 each",
+    "goods_usd": 99.23,
+    "adafruit_usd": 30.84,
     "tier3_grant_usd": 100,
-    "original_readme_and_cost_notes": "Preserved as originally supplied; latest cost attachment supersedes earlier cost figures",
-    "live_supported_bom_total_usd": 117.18,
-    "supplied_estimate_usd": 137.13,
-    "latest_cost_notes": "procurement/NebulaVault-updated-BOM-and-notes.md"
-  }
+    "source_of_truth": "CURRENT-SUBMISSION-COSTS.md and procurement/CURRENT-COST-CORRECTION.md",
+    "existing_supplies": "Owner confirmed solder, heat-shrink and shim material. No purchase funding requested for these.",
+    "owner_excess_acknowledgement": "Authorized; checked in submission form",
+    "final_checkout_estimate_usd": 118.79,
+    "polymaker_usd": 21.39,
+    "owner_excess_usd": 18.79,
+    "unsupported_allowance": "The former $19.95 allowance is withdrawn",
+    "shipping_tariff_tax_usd": 19.56
+  },
+  "submit_clicked_at_utc": "2026-11-09T03:32:41.648Z",
+  "submission_time_eastern": "November 8, 2026, approximately 10:32:42 PM EST",
+  "confirmation_text": [
+    "Congratulations, your design is submitted!",
+    "It's with the reviewers now."
+  ],
+  "confirmation_screenshot": "NebulaVault-submission-confirmation.jpg"
 }
